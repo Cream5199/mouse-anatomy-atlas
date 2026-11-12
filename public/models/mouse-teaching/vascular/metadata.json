@@ -1,0 +1,686 @@
+[
+  {
+    "id": "teaching_artery_aorta",
+    "name": "主动脉弓与降主动脉（教学）",
+    "en": "Aortic arch and descending aorta",
+    "color": "#B86361",
+    "sourceName": "Aortic arch and descending aorta",
+    "description": "由心基部上行，经主动脉弓转入胸腹部降主动脉，至骨盆分叉；保留少量胸壁和腰部支。 依据原图谱器官和骨骼定位自主补绘，主干连接参照小鼠解剖；曲线、管径和末端分布为教学示意，非原标本血管分割。A/B仅标示模型两侧。",
+    "category": "arterial",
+    "origin": "teaching",
+    "bounds": [
+      [
+        14.936948776245117,
+        33.73432540893555,
+        8.208500862121582
+      ],
+      [
+        23.923049926757812,
+        71.52242279052734,
+        15.103096961975098
+      ]
+    ],
+    "center": [
+      19.090702056884766,
+      48.278594970703125,
+      13.674822807312012
+    ],
+    "centroid": [
+      19.090702056884766,
+      48.278594970703125,
+      13.674822807312012
+    ],
+    "vertices": 20376,
+    "triangles": 40720,
+    "originalAtlasLabel": false,
+    "paths": 8,
+    "defaultHidden": false,
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "teaching_artery_head_neck",
+    "name": "头颈动脉树（教学）",
+    "en": "Head and neck arterial tree",
+    "color": "#B86361",
+    "sourceName": "Head and neck arterial tree",
+    "description": "示意头臂干及两侧颈部供血；一侧颈总动脉与前肢支共用头臂干，另一侧颈支直接起自主动脉弓。 依据原图谱器官和骨骼定位自主补绘，主干连接参照小鼠解剖；曲线、管径和末端分布为教学示意，非原标本血管分割。A/B仅标示模型两侧。",
+    "category": "arterial",
+    "origin": "teaching",
+    "bounds": [
+      [
+        12.75043773651123,
+        12.980619430541992,
+        5.463841438293457
+      ],
+      [
+        25.549562454223633,
+        34.655635833740234,
+        11.911301612854004
+      ]
+    ],
+    "center": [
+      19.15996742248535,
+      22.054107666015625,
+      7.900061130523682
+    ],
+    "centroid": [
+      19.15996742248535,
+      22.054107666015625,
+      7.900061130523682
+    ],
+    "vertices": 18238,
+    "triangles": 36440,
+    "originalAtlasLabel": false,
+    "paths": 9,
+    "defaultHidden": false,
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "teaching_artery_forelimb_a",
+    "name": "前肢A动脉树（教学）",
+    "en": "Forelimb A arterial tree",
+    "color": "#B86361",
+    "sourceName": "Forelimb A arterial tree",
+    "description": "锁骨下—腋—肱动脉走向沿原骨骼肩、肘、腕延伸，附少量前臂及掌部支。 依据原图谱器官和骨骼定位自主补绘，主干连接参照小鼠解剖；曲线、管径和末端分布为教学示意，非原标本血管分割。A/B仅标示模型两侧。",
+    "category": "arterial",
+    "origin": "teaching",
+    "bounds": [
+      [
+        5.16840124130249,
+        18.184736251831055,
+        3.207801342010498
+      ],
+      [
+        16.752084732055664,
+        35.03543472290039,
+        10.803647994995117
+      ]
+    ],
+    "center": [
+      8.21274471282959,
+      27.033716201782227,
+      5.5735979080200195
+    ],
+    "centroid": [
+      8.21274471282959,
+      27.033716201782227,
+      5.5735979080200195
+    ],
+    "vertices": 12192,
+    "triangles": 24360,
+    "originalAtlasLabel": false,
+    "paths": 6,
+    "defaultHidden": false,
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "teaching_artery_forelimb_b",
+    "name": "前肢B动脉树（教学）",
+    "en": "Forelimb B arterial tree",
+    "color": "#B86361",
+    "sourceName": "Forelimb B arterial tree",
+    "description": "锁骨下—腋—肱动脉走向沿原骨骼肩、肘、腕延伸，附少量前臂及掌部支。 依据原图谱器官和骨骼定位自主补绘，主干连接参照小鼠解剖；曲线、管径和末端分布为教学示意，非原标本血管分割。A/B仅标示模型两侧。",
+    "category": "arterial",
+    "origin": "teaching",
+    "bounds": [
+      [
+        20.298368453979492,
+        15.884736061096191,
+        3.210273027420044
+      ],
+      [
+        31.167888641357422,
+        36.03543472290039,
+        13.18864631652832
+      ]
+    ],
+    "center": [
+      27.957626342773438,
+      25.977100372314453,
+      5.967804431915283
+    ],
+    "centroid": [
+      27.957626342773438,
+      25.977100372314453,
+      5.967804431915283
+    ],
+    "vertices": 12952,
+    "triangles": 25880,
+    "originalAtlasLabel": false,
+    "paths": 6,
+    "defaultHidden": false,
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "teaching_artery_renal",
+    "name": "肾及肾上腺动脉树（教学）",
+    "en": "Renal and suprarenal arterial trees",
+    "color": "#B86361",
+    "sourceName": "Renal and suprarenal arterial trees",
+    "description": "由腹主动脉至两侧肾门，在肾轮廓内示意少量分支，并附向肾上腺方向的小支。 依据原图谱器官和骨骼定位自主补绘，主干连接参照小鼠解剖；曲线、管径和末端分布为教学示意，非原标本血管分割。A/B仅标示模型两侧。",
+    "category": "arterial",
+    "origin": "teaching",
+    "bounds": [
+      [
+        9.653623580932617,
+        55.078556060791016,
+        13.244893074035645
+      ],
+      [
+        24.596376419067383,
+        63.3437385559082,
+        15.553805351257324
+      ]
+    ],
+    "center": [
+      17.2430362701416,
+      59.27838134765625,
+      14.408487319946289
+    ],
+    "centroid": [
+      17.2430362701416,
+      59.27838134765625,
+      14.408487319946289
+    ],
+    "vertices": 11040,
+    "triangles": 22040,
+    "originalAtlasLabel": false,
+    "paths": 10,
+    "defaultHidden": false,
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "teaching_artery_celiac",
+    "name": "腹腔动脉分支（教学）",
+    "en": "Celiac arterial branches",
+    "color": "#B86361",
+    "sourceName": "Celiac arterial branches",
+    "description": "腹腔干分向肝、胃和脾的区域，利用原脏器位置约束终端；未描绘完整叶内血管。 依据原图谱器官和骨骼定位自主补绘，主干连接参照小鼠解剖；曲线、管径和末端分布为教学示意，非原标本血管分割。A/B仅标示模型两侧。",
+    "category": "arterial",
+    "origin": "teaching",
+    "bounds": [
+      [
+        8.987160682678223,
+        47.93341827392578,
+        6.0460615158081055
+      ],
+      [
+        27.545183181762695,
+        58.712928771972656,
+        14.14836311340332
+      ]
+    ],
+    "center": [
+      19.70106315612793,
+      51.833953857421875,
+      10.112115859985352
+    ],
+    "centroid": [
+      19.70106315612793,
+      51.833953857421875,
+      10.112115859985352
+    ],
+    "vertices": 12994,
+    "triangles": 25960,
+    "originalAtlasLabel": false,
+    "paths": 7,
+    "defaultHidden": false,
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "teaching_artery_mesenteric",
+    "name": "肠系膜主要动脉树（教学）",
+    "en": "Major mesenteric arterial tree",
+    "color": "#B86361",
+    "sourceName": "Major mesenteric arterial tree",
+    "description": "由腹主动脉向腹腔中下部展开少量递减分支，示意肠系膜供血区域；不代表固定肠袢或真实末端分布。 依据原图谱器官和骨骼定位自主补绘，主干连接参照小鼠解剖；曲线、管径和末端分布为教学示意，非原标本血管分割。A/B仅标示模型两侧。",
+    "category": "arterial",
+    "origin": "teaching",
+    "bounds": [
+      [
+        9.652931213378906,
+        52.812103271484375,
+        6.95101261138916
+      ],
+      [
+        25.647064208984375,
+        71.2192153930664,
+        14.649806022644043
+      ]
+    ],
+    "center": [
+      18.003686904907227,
+      64.35942840576172,
+      8.634313583374023
+    ],
+    "centroid": [
+      18.003686904907227,
+      64.35942840576172,
+      8.634313583374023
+    ],
+    "vertices": 33440,
+    "triangles": 66800,
+    "originalAtlasLabel": false,
+    "paths": 20,
+    "defaultHidden": false,
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "teaching_artery_iliac_hindlimbs",
+    "name": "髂与后肢动脉树（教学）",
+    "en": "Iliac and hindlimb arterial trees",
+    "color": "#B86361",
+    "sourceName": "Iliac and hindlimb arterial trees",
+    "description": "主动脉分向髂、股、腘及小腿区域，依据两侧真实屈曲后肢走向补绘，附盆壁与足部小支。 依据原图谱器官和骨骼定位自主补绘，主干连接参照小鼠解剖；曲线、管径和末端分布为教学示意，非原标本血管分割。A/B仅标示模型两侧。",
+    "category": "arterial",
+    "origin": "teaching",
+    "bounds": [
+      [
+        4.57296085357666,
+        71.30520629882812,
+        2.615675210952759
+      ],
+      [
+        30.36509132385254,
+        91.02468872070312,
+        14.428750991821289
+      ]
+    ],
+    "center": [
+      17.81123161315918,
+      79.6422348022461,
+      6.397075653076172
+    ],
+    "centroid": [
+      17.81123161315918,
+      79.6422348022461,
+      6.397075653076172
+    ],
+    "vertices": 37428,
+    "triangles": 74800,
+    "originalAtlasLabel": false,
+    "paths": 14,
+    "defaultHidden": false,
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "teaching_artery_pulmonary",
+    "name": "肺动脉分支（教学）",
+    "en": "Pulmonary arterial branches",
+    "color": "#B86361",
+    "sourceName": "Pulmonary arterial branches",
+    "description": "由心基部通向两侧肺门及肺内区域的简化分支；红色仅按动脉类别编码，不表示富氧血。 依据原图谱器官和骨骼定位自主补绘，主干连接参照小鼠解剖；曲线、管径和末端分布为教学示意，非原标本血管分割。A/B仅标示模型两侧。",
+    "category": "arterial",
+    "origin": "teaching",
+    "bounds": [
+      [
+        13.934502601623535,
+        35.76985549926758,
+        8.834298133850098
+      ],
+      [
+        23.2654972076416,
+        45.015625,
+        12.62389850616455
+      ]
+    ],
+    "center": [
+      18.592309951782227,
+      39.94765090942383,
+      12.031427383422852
+    ],
+    "centroid": [
+      18.592309951782227,
+      39.94765090942383,
+      12.031427383422852
+    ],
+    "vertices": 9758,
+    "triangles": 19480,
+    "originalAtlasLabel": false,
+    "paths": 9,
+    "defaultHidden": false,
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "teaching_vein_cavae",
+    "name": "腔静脉主干（教学）",
+    "en": "Caval trunks",
+    "color": "#668AA4",
+    "sourceName": "Caval trunks",
+    "description": "示意尾侧腔静脉及小鼠双侧头端腔静脉至心基部的回流；不按人类单侧上腔静脉外观绘制。 依据原图谱器官和骨骼定位自主补绘，主干连接参照小鼠解剖；曲线、管径和末端分布为教学示意，非原标本血管分割。A/B仅标示模型两侧。",
+    "category": "venous",
+    "origin": "teaching",
+    "bounds": [
+      [
+        15.279882431030273,
+        30.94748878479004,
+        7.861067295074463
+      ],
+      [
+        22.44877815246582,
+        72.05516052246094,
+        13.477350234985352
+      ]
+    ],
+    "center": [
+      17.150516510009766,
+      48.645503997802734,
+      11.065919876098633
+    ],
+    "centroid": [
+      17.150516510009766,
+      48.645503997802734,
+      11.065919876098633
+    ],
+    "vertices": 13606,
+    "triangles": 27200,
+    "originalAtlasLabel": false,
+    "paths": 3,
+    "defaultHidden": false,
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "teaching_vein_head_neck",
+    "name": "头颈静脉树（教学）",
+    "en": "Head and neck venous trees",
+    "color": "#668AA4",
+    "sourceName": "Head and neck venous trees",
+    "description": "较表浅的头面和颈部区域回流支汇向两侧头端腔静脉，保持与颈动脉不同的曲线路径。 依据原图谱器官和骨骼定位自主补绘，主干连接参照小鼠解剖；曲线、管径和末端分布为教学示意，非原标本血管分割。A/B仅标示模型两侧。",
+    "category": "venous",
+    "origin": "teaching",
+    "bounds": [
+      [
+        12.236217498779297,
+        13.583346366882324,
+        4.846163749694824
+      ],
+      [
+        25.56378173828125,
+        32.08671188354492,
+        9.057488441467285
+      ]
+    ],
+    "center": [
+      18.865028381347656,
+      21.584758758544922,
+      6.654205799102783
+    ],
+    "centroid": [
+      18.865028381347656,
+      21.584758758544922,
+      6.654205799102783
+    ],
+    "vertices": 17876,
+    "triangles": 35720,
+    "originalAtlasLabel": false,
+    "paths": 8,
+    "defaultHidden": false,
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "teaching_vein_forelimb_a",
+    "name": "前肢A静脉树（教学）",
+    "en": "Forelimb A venous tree",
+    "color": "#668AA4",
+    "sourceName": "Forelimb A venous tree",
+    "description": "沿源骨骼前肢回流至腋和锁骨下区域，保留主干和少量表浅分支；末端不是实测毛细血管。 依据原图谱器官和骨骼定位自主补绘，主干连接参照小鼠解剖；曲线、管径和末端分布为教学示意，非原标本血管分割。A/B仅标示模型两侧。",
+    "category": "venous",
+    "origin": "teaching",
+    "bounds": [
+      [
+        4.672880172729492,
+        18.771587371826172,
+        2.461185932159424
+      ],
+      [
+        15.785283088684082,
+        33.92383575439453,
+        9.294917106628418
+      ]
+    ],
+    "center": [
+      7.616955280303955,
+      28.609891891479492,
+      4.239205837249756
+    ],
+    "centroid": [
+      7.616955280303955,
+      28.609891891479492,
+      4.239205837249756
+    ],
+    "vertices": 11768,
+    "triangles": 23520,
+    "originalAtlasLabel": false,
+    "paths": 4,
+    "defaultHidden": false,
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "teaching_vein_forelimb_b",
+    "name": "前肢B静脉树（教学）",
+    "en": "Forelimb B venous tree",
+    "color": "#668AA4",
+    "sourceName": "Forelimb B venous tree",
+    "description": "沿源骨骼前肢回流至腋和锁骨下区域，保留主干和少量表浅分支；末端不是实测毛细血管。 依据原图谱器官和骨骼定位自主补绘，主干连接参照小鼠解剖；曲线、管径和末端分布为教学示意，非原标本血管分割。A/B仅标示模型两侧。",
+    "category": "venous",
+    "origin": "teaching",
+    "bounds": [
+      [
+        21.909624099731445,
+        16.471586227416992,
+        2.495318651199341
+      ],
+      [
+        31.292659759521484,
+        32.55005645751953,
+        9.60017204284668
+      ]
+    ],
+    "center": [
+      28.797393798828125,
+      26.59287452697754,
+      4.37294864654541
+    ],
+    "centroid": [
+      28.797393798828125,
+      26.59287452697754,
+      4.37294864654541
+    ],
+    "vertices": 10348,
+    "triangles": 20680,
+    "originalAtlasLabel": false,
+    "paths": 4,
+    "defaultHidden": false,
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "teaching_vein_renal",
+    "name": "肾静脉树（教学）",
+    "en": "Renal venous trees",
+    "color": "#668AA4",
+    "sourceName": "Renal venous trees",
+    "description": "两侧肾门向尾侧腔静脉回流；跨中线的一侧肾静脉位于主动脉腹侧，避免穿过其中心。 依据原图谱器官和骨骼定位自主补绘，主干连接参照小鼠解剖；曲线、管径和末端分布为教学示意，非原标本血管分割。A/B仅标示模型两侧。",
+    "category": "venous",
+    "origin": "teaching",
+    "bounds": [
+      [
+        9.939642906188965,
+        57.34929656982422,
+        12.54874038696289
+      ],
+      [
+        24.31035804748535,
+        63.54847717285156,
+        14.453790664672852
+      ]
+    ],
+    "center": [
+      17.114486694335938,
+      60.347686767578125,
+      13.542099952697754
+    ],
+    "centroid": [
+      17.114486694335938,
+      60.347686767578125,
+      13.542099952697754
+    ],
+    "vertices": 6652,
+    "triangles": 13280,
+    "originalAtlasLabel": false,
+    "paths": 6,
+    "defaultHidden": false,
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "teaching_vein_portal_mesenteric",
+    "name": "肝门与肠系膜静脉树（教学）",
+    "en": "Hepatic portal and mesenteric venous tree",
+    "color": "#668AA4",
+    "sourceName": "Hepatic portal and mesenteric venous tree",
+    "description": "肠系膜、胃和脾区域回流汇入肝门静脉后进入肝内；不直接连接腔静脉，保留肝门系统关系。 依据原图谱器官和骨骼定位自主补绘，主干连接参照小鼠解剖；曲线、管径和末端分布为教学示意，非原标本血管分割。A/B仅标示模型两侧。",
+    "category": "venous",
+    "origin": "teaching",
+    "bounds": [
+      [
+        11.37006950378418,
+        48.368404388427734,
+        7.016383647918701
+      ],
+      [
+        26.036537170410156,
+        70.56787872314453,
+        12.416532516479492
+      ]
+    ],
+    "center": [
+      18.96280288696289,
+      60.27311325073242,
+      8.593952178955078
+    ],
+    "centroid": [
+      18.96280288696289,
+      60.27311325073242,
+      8.593952178955078
+    ],
+    "vertices": 23502,
+    "triangles": 46960,
+    "originalAtlasLabel": false,
+    "paths": 11,
+    "defaultHidden": false,
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "teaching_vein_hepatic",
+    "name": "肝静脉汇流（教学）",
+    "en": "Hepatic venous collectors",
+    "color": "#668AA4",
+    "sourceName": "Hepatic venous collectors",
+    "description": "肝内区域支汇向穿过肝后部的尾侧腔静脉，与肝门静脉保留不同的汇流终点。 依据原图谱器官和骨骼定位自主补绘，主干连接参照小鼠解剖；曲线、管径和末端分布为教学示意，非原标本血管分割。A/B仅标示模型两侧。",
+    "category": "venous",
+    "origin": "teaching",
+    "bounds": [
+      [
+        8.692619323730469,
+        47.14449691772461,
+        7.384157180786133
+      ],
+      [
+        26.052339553833008,
+        58.02949142456055,
+        12.219833374023438
+      ]
+    ],
+    "center": [
+      16.343584060668945,
+      50.691585540771484,
+      10.466818809509277
+    ],
+    "centroid": [
+      16.343584060668945,
+      50.691585540771484,
+      10.466818809509277
+    ],
+    "vertices": 8726,
+    "triangles": 17440,
+    "originalAtlasLabel": false,
+    "paths": 3,
+    "defaultHidden": false,
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "teaching_vein_iliac_hindlimbs",
+    "name": "髂与后肢静脉树（教学）",
+    "en": "Iliac and hindlimb venous trees",
+    "color": "#668AA4",
+    "sourceName": "Iliac and hindlimb venous trees",
+    "description": "两侧足、小腿和股部区域经髂静脉汇入尾侧腔静脉，走向随标本两侧后肢姿势。 依据原图谱器官和骨骼定位自主补绘，主干连接参照小鼠解剖；曲线、管径和末端分布为教学示意，非原标本血管分割。A/B仅标示模型两侧。",
+    "category": "venous",
+    "origin": "teaching",
+    "bounds": [
+      [
+        4.353171348571777,
+        71.74567413330078,
+        2.1926209926605225
+      ],
+      [
+        29.98927116394043,
+        91.42494201660156,
+        13.307632446289062
+      ]
+    ],
+    "center": [
+      17.7230281829834,
+      80.23889923095703,
+      5.375085353851318
+    ],
+    "centroid": [
+      17.7230281829834,
+      80.23889923095703,
+      5.375085353851318
+    ],
+    "vertices": 32080,
+    "triangles": 64120,
+    "originalAtlasLabel": false,
+    "paths": 10,
+    "defaultHidden": false,
+    "license": "CC-BY-SA-4.0"
+  },
+  {
+    "id": "teaching_vein_pulmonary",
+    "name": "肺静脉分支（教学）",
+    "en": "Pulmonary venous branches",
+    "color": "#668AA4",
+    "sourceName": "Pulmonary venous branches",
+    "description": "肺内区域汇流至心基部的独立静脉树，蓝色用于静脉类别辨认，不代表含氧状态。 依据原图谱器官和骨骼定位自主补绘，主干连接参照小鼠解剖；曲线、管径和末端分布为教学示意，非原标本血管分割。A/B仅标示模型两侧。",
+    "category": "venous",
+    "origin": "teaching",
+    "bounds": [
+      [
+        14.216160774230957,
+        36.680694580078125,
+        10.27134895324707
+      ],
+      [
+        22.183839797973633,
+        45.522926330566406,
+        11.62027359008789
+      ]
+    ],
+    "center": [
+      18.2183780670166,
+      41.24193572998047,
+      11.202873229980469
+    ],
+    "centroid": [
+      18.2183780670166,
+      41.24193572998047,
+      11.202873229980469
+    ],
+    "vertices": 8216,
+    "triangles": 16400,
+    "originalAtlasLabel": false,
+    "paths": 8,
+    "defaultHidden": false,
+    "license": "CC-BY-SA-4.0"
+  }
+]

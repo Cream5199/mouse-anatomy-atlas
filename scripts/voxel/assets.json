@@ -1,0 +1,21 @@
+{
+  "source": {
+    "path": "scripts/voxel/atlas.zip",
+    "sha256": "6f7cbd8a7236a78c47a14c3259d387439c0dc0284b2a83fa955f8c49efe11761"
+  },
+  "models": [
+    {
+      "files": [
+        "public/models/digimouse-voxel/core.glb.gz"
+      ],
+      "decompressedSHA256": "d601e9cd3dd75bf3afc71abe0a96d27b88f0569d4f01fa6dd86b3d00971dd7fa"
+    },
+    {
+      "files": [
+        "public/models/digimouse-voxel/skin.glb.gz.part1",
+        "public/models/digimouse-voxel/skin.glb.gz.part2"
+      ],
+      "decompressedSHA256": "fd1bc9aa22e4c9a7cf40c356afffb9edd904bef93a77959880a5e47d9d71c574"
+    }
+  ]
+}

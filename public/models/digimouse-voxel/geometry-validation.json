@@ -1,0 +1,170 @@
+{
+  "parents": [
+    {
+      "sourceRegionId": "region_2",
+      "originalFaces": 1419192,
+      "outputFaces": 1419192,
+      "faceCoverageExactlyOnce": true,
+      "triangleCoordinatesSHA256": "ad9b380f37ffcd90f54a404af39c43c3ca2167fcaa3945d7a351192379bab01c",
+      "normalValuesPreserved": true
+    },
+    {
+      "sourceRegionId": "region_3",
+      "originalFaces": 5548,
+      "outputFaces": 5548,
+      "faceCoverageExactlyOnce": true,
+      "triangleCoordinatesSHA256": "7a9975926b09dc71d21bc6dac5194c4206a370f73499e90c2b7ce72472d0c614",
+      "normalValuesPreserved": true
+    },
+    {
+      "sourceRegionId": "region_4",
+      "originalFaces": 24196,
+      "outputFaces": 24196,
+      "faceCoverageExactlyOnce": true,
+      "triangleCoordinatesSHA256": "c42a01a2a6ea7b7beb4f15fddb0abc0510f8c3c3350f09fa9486581060223a57",
+      "normalValuesPreserved": true
+    },
+    {
+      "sourceRegionId": "region_5",
+      "originalFaces": 19532,
+      "outputFaces": 19532,
+      "faceCoverageExactlyOnce": true,
+      "triangleCoordinatesSHA256": "17151f9f612c99e011a68fc46ffe4138876017d50e2ff63a761f376533bf47a8",
+      "normalValuesPreserved": true
+    },
+    {
+      "sourceRegionId": "region_6",
+      "originalFaces": 11898,
+      "outputFaces": 11898,
+      "faceCoverageExactlyOnce": true,
+      "triangleCoordinatesSHA256": "a45c6f1e7a0db792145e281f5f7dfe0175f719442360badcae8d8f9db7e2ff71",
+      "normalValuesPreserved": true
+    },
+    {
+      "sourceRegionId": "region_7",
+      "originalFaces": 79268,
+      "outputFaces": 79268,
+      "faceCoverageExactlyOnce": true,
+      "triangleCoordinatesSHA256": "553a9147a9a7854a90ae51c14649962eb817fa4b21f67c200b05bab182947e04",
+      "normalValuesPreserved": true
+    },
+    {
+      "sourceRegionId": "region_8",
+      "originalFaces": 18852,
+      "outputFaces": 18852,
+      "faceCoverageExactlyOnce": true,
+      "triangleCoordinatesSHA256": "892df9100dfef181e124c799bbe96f2a405f37125ee64da19250713dc4c3ab56",
+      "normalValuesPreserved": true
+    },
+    {
+      "sourceRegionId": "region_9",
+      "originalFaces": 59536,
+      "outputFaces": 59536,
+      "faceCoverageExactlyOnce": true,
+      "triangleCoordinatesSHA256": "e8203c0b6735e00a348036f6444f10ea6d131e88860a957177921005cdd04e6a",
+      "normalValuesPreserved": true
+    },
+    {
+      "sourceRegionId": "region_10",
+      "originalFaces": 122202,
+      "outputFaces": 122202,
+      "faceCoverageExactlyOnce": true,
+      "triangleCoordinatesSHA256": "e57bf46687c56891f17a4e46bad8c33eb2641b59ff97a996db941dc5039785bd",
+      "normalValuesPreserved": true
+    },
+    {
+      "sourceRegionId": "region_11",
+      "originalFaces": 56830,
+      "outputFaces": 56830,
+      "faceCoverageExactlyOnce": true,
+      "triangleCoordinatesSHA256": "c6ecd723006ae8d4bf0c9fbe2cf9fda2108f5406d0f38d825f71a3ee7e2b9d80",
+      "normalValuesPreserved": true
+    },
+    {
+      "sourceRegionId": "region_12",
+      "originalFaces": 20072,
+      "outputFaces": 20072,
+      "faceCoverageExactlyOnce": true,
+      "triangleCoordinatesSHA256": "bef82768503ff598ae3c299fd1eca6710d9afaf1fbaa63cb5751e9aa830a51a5",
+      "normalValuesPreserved": true
+    },
+    {
+      "sourceRegionId": "region_13",
+      "originalFaces": 48740,
+      "outputFaces": 48740,
+      "faceCoverageExactlyOnce": true,
+      "triangleCoordinatesSHA256": "dab467dfa727dd3ebebf29a76cab9d7e1f6d149c22b389c27920759012b287de",
+      "normalValuesPreserved": true
+    },
+    {
+      "sourceRegionId": "region_14",
+      "originalFaces": 52964,
+      "outputFaces": 52964,
+      "faceCoverageExactlyOnce": true,
+      "triangleCoordinatesSHA256": "c651917063d02f9850a8d190856334761b5f554a416dbda529298ae3888f808d",
+      "normalValuesPreserved": true
+    },
+    {
+      "sourceRegionId": "region_15",
+      "originalFaces": 67144,
+      "outputFaces": 67144,
+      "faceCoverageExactlyOnce": true,
+      "triangleCoordinatesSHA256": "91b44247a9b3f5b81244cb5ff4d333d9bf0ca9cf9b84c2d5fbdcf4b6bfa55c6f",
+      "normalValuesPreserved": true
+    },
+    {
+      "sourceRegionId": "region_16",
+      "originalFaces": 64948,
+      "outputFaces": 64948,
+      "faceCoverageExactlyOnce": true,
+      "triangleCoordinatesSHA256": "9b4897bd401482135a5b7ef09dce9121d65d5252602a78da48843c6193bfacfc",
+      "normalValuesPreserved": true
+    },
+    {
+      "sourceRegionId": "region_17",
+      "originalFaces": 33004,
+      "outputFaces": 33004,
+      "faceCoverageExactlyOnce": true,
+      "triangleCoordinatesSHA256": "6a54b5695a5c7af7ee9ddea331e3ca3688253a84329655e2abd5b9afcaf070f4",
+      "normalValuesPreserved": true
+    },
+    {
+      "sourceRegionId": "region_18",
+      "originalFaces": 416544,
+      "outputFaces": 416544,
+      "faceCoverageExactlyOnce": true,
+      "triangleCoordinatesSHA256": "1a54d5e91a0a56da61e81a7d9220cfb21302c6803ecc207615a9077396d9b784",
+      "normalValuesPreserved": true
+    },
+    {
+      "sourceRegionId": "region_19",
+      "originalFaces": 121976,
+      "outputFaces": 121976,
+      "faceCoverageExactlyOnce": true,
+      "triangleCoordinatesSHA256": "66e7c9d16c2c0cd63ed9da81c4e17afe7c9b542b79acd9d8c20ed1468115b299",
+      "normalValuesPreserved": true
+    },
+    {
+      "sourceRegionId": "region_20",
+      "originalFaces": 6028,
+      "outputFaces": 6028,
+      "faceCoverageExactlyOnce": true,
+      "triangleCoordinatesSHA256": "082579f5d35f35ff976d62f0f55c351c654a315a791616b3d1e48486d41002b6",
+      "normalValuesPreserved": true
+    },
+    {
+      "sourceRegionId": "region_21",
+      "originalFaces": 170594,
+      "outputFaces": 170594,
+      "faceCoverageExactlyOnce": true,
+      "triangleCoordinatesSHA256": "ef862baa837765e33766a531da58187d90cfe5441eb9b7980e4fdcec0874688e",
+      "normalValuesPreserved": true
+    }
+  ],
+  "totalFaces": 2819068,
+  "sourceMeshCount": 20,
+  "refinedMeshCount": 26,
+  "allTriangleCoordinatesUnchanged": true,
+  "allOriginalFacesIncludedExactlyOnce": true,
+  "allNormalValuesPreserved": true
+}

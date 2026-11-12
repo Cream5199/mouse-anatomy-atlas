@@ -1,0 +1,80 @@
+{
+  "title": "Mouse digestive and conduit teaching extension",
+  "origin": "teaching",
+  "species": "Mus musculus",
+  "authorship": "Original procedural teaching geometry authored for Animal Atlas; no external mesh copied",
+  "license": "CC-BY-SA-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "licenseScope": "New authored geometry and scripts; source Digimouse remains under its original CC BY-SA license. Anatomy reference figures were consulted for factual morphology only; no reference images or external meshes are reproduced.",
+  "sourceAtlas": "https://neuroimage.usc.edu/neuro/Digimouse",
+  "sourceCoreSHA256": "70529d5ddf04d7f95d6a25b78b44f1c98c208aa6f7c3ded7cd81557373661c35",
+  "sources": [
+    {
+      "title": "Margaret J. Cook, The Anatomy of the Laboratory Mouse: abdominal viscera in situ",
+      "url": "https://informatics.jax.org/cookbook/figures/figure54.shtml"
+    },
+    {
+      "title": "Cook: alimentary canal",
+      "url": "https://www.informatics.jax.org/cookbook/figures/figure57.shtml"
+    },
+    {
+      "title": "Cook: trachea and lungs",
+      "url": "https://informatics.jax.org/cookbook/figures/figure53.shtml"
+    },
+    {
+      "title": "Cook: male urogenital system",
+      "url": "https://informatics.jax.org/cookbook/figures/figure62.shtml"
+    },
+    {
+      "title": "Cook: bladder and prostate",
+      "url": "https://informatics.jax.org/cookbook/figures/figure67.shtml"
+    },
+    {
+      "title": "INHAND rodent gastrointestinal nomenclature and morphology",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4765498/"
+    }
+  ],
+  "coordinateSystem": "Source raw millimetres; head toward decreasing Y, ventral toward decreasing Z. No verified left/right labeling.",
+  "anchors": {
+    "region_15:20.2,49.8,12.5": [
+      21.75,
+      50.60000228881836,
+      13.40000057220459
+    ],
+    "region_15:18.5,54.6,9.2": [
+      22.149999618530273,
+      54.60000228881836,
+      9.199999809265137
+    ],
+    "region_19_a:14.4,61.0,13.4": [
+      14.350000381469727,
+      61.0,
+      13.40000057220459
+    ],
+    "region_19_b:19.0,62.3,13.4": [
+      20.049999237060547,
+      61.70000076293945,
+      13.699999809265137
+    ],
+    "region_13:14.9,68.8,9.3": [
+      15.199999809265137,
+      69.0,
+      9.050000190734863
+    ],
+    "region_13:18.3,69.4,9.0": [
+      18.200000762939453,
+      69.4000015258789,
+      8.850000381469727
+    ]
+  },
+  "limitations": [
+    "Teaching approximation, not CT-derived segmentation or verified registration.",
+    "Loop number, lumen calibre, total bowel length and segment boundaries are illustrative, not specimen measurements.",
+    "No intestinal villi, haustra, taenia coli, appendix or separate histological layers are modeled.",
+    "Source organ meshes are read for anchoring and remain unchanged.",
+    "Caecum and ileum/colon meet by small overlapping closed surfaces; lumen flow continuity is conceptual, not surgical/manufacturing grade."
+  ],
+  "parts": 12,
+  "triangles": 197280,
+  "compressedBytes": 2621051
+}

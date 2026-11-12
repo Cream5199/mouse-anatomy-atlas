@@ -1,0 +1,157 @@
+{
+  "title": "Digimouse original 0.1 mm labelled voxel atlas, surface reconstruction",
+  "source": "https://neuroimage.usc.edu/mouse_atlas/atlas.zip",
+  "sourcePage": "https://neuroimage.usc.edu/neuro/Digimouse_Download",
+  "license": "CC BY-SA 4.0",
+  "licensePage": "https://neuroimage.usc.edu/neuro/Digimouse_license",
+  "authors": "B. Dogdas, D. Stout, A. Chatziioannou, R. M. Leahy",
+  "citation": "Digimouse: A 3D Whole Body Mouse Atlas from CT and Cryosection Data. Phys. Med. Biol. 52:577–587 (2007).",
+  "doi": "https://doi.org/10.1088/0031-9155/52/3/003",
+  "changes": "Direct Lewiner marching cubes at level 0.5, step_size=1, from each original labelled voxel mask. Masks padded with background to close surfaces. No smoothing, subdivision, decimation, coordinate-axis swaps or invented anatomy. Winding corrected outward; vertex normals computed; illustrative colors assigned.",
+  "data": {
+    "format": "Analyze 7.5",
+    "dimensions": [
+      380,
+      992,
+      208
+    ],
+    "datatype": "uint8",
+    "spacingMM": [
+      0.10000000149011612,
+      0.10000000149011612,
+      0.10000000149011612
+    ],
+    "storageOrder": "Analyze first index x varies fastest (Fortran reshape)",
+    "headerOrient": 0,
+    "headerOriginatorBytes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "coordinates": "Zero-based voxel indices times header spacing; no supplied affine/anatomical laterality; no axis inversion or rescaling performed."
+  },
+  "warnings": [
+    "21 non-background labels are source regions, not individual anatomical structures. Some labels contain paired organs.",
+    "Skeleton is one region; complete vessels, individual muscles and nerves are not segmented.",
+    "Label 1 source name skin occupies surrounding body tissues as well as outer boundary; hide for internal anatomy.",
+    "Source header does not establish anatomical left/right. Preserve source coordinates and do not relabel paired organs by guessed laterality."
+  ],
+  "originalArchiveSHA256": "6f7cbd8a7236a78c47a14c3259d387439c0dc0284b2a83fa955f8c49efe11761",
+  "glbSHA256": "accfb3b55ba72e1c3dc0aa0107ec73a93647910f63ff5a7a6e593b4946d73b5a",
+  "totalTriangles": 6708992,
+  "glbBytes": 160814336,
+  "conversionSeconds": 64.40310549736023,
+  "publishedAssets": {
+    "core": {
+      "file": "core.glb",
+      "bytes": 67643336,
+      "gzipFile": "core.glb.gz",
+      "gzipBytes": 23517215,
+      "sha256": "d293219bdbbea10a3c014a0bbe58439ea792e28e1f0397b189a98314005e5a2a",
+      "gzipSHA256": "c9f4a8e67fd11050ba641c4307635483532f7a08d90ccc1cb0ce99ac7d3ca90a",
+      "meshes": 20,
+      "triangles": 2819068
+    },
+    "optionalSkin": {
+      "file": "skin.glb",
+      "bytes": 93171304,
+      "gzipFile": "skin.glb.gz",
+      "gzipBytes": 32048097,
+      "sha256": "387964ad2439a4cf8d6a4eec49cd642437eb71da7a5e768b7ab175a183b54ef3",
+      "gzipSHA256": "f05b7ee55c2bdeb8a0ba67fa60bb9aed50e856854b2f2763ea23ecf20af5015e",
+      "meshes": 1,
+      "triangles": 3889924
+    },
+    "layout": "20 internal original label surfaces in core; optional original region_1 body tissue surface loaded on demand. Total 21 source labels, no decimation."
+  },
+  "validation": "All 21 mesh node ids match metadata; finite vertices and normals; triangle indices in range; exact metadata bounds; extracted closed volumes differ from source voxel volumes by less than 0.71%; decompressed gzip SHA-256 equals corresponding GLB.",
+  "normalPrecisionOptimization": {
+    "changes": "Only NORMAL float32 attributes rounded to five decimal places to reduce gzip entropy; original POSITION and triangle index accessor bytes verified identical, no geometry changes.",
+    "validation": "normal-optimization-validation.json",
+    "core": {
+      "file": "core-web.glb",
+      "bytes": 67643336,
+      "gzipFile": "core-web.glb.gz",
+      "gzipBytes": 19336892,
+      "sha256": "1185a2b7a87a49c6e5a8c3762a51dc41741758053f5077fee5ba2ed2f0dc2a24",
+      "gzipSHA256": "5fa40bfa89d06afeeb884d44bba66bf0e0537b776674a2a31bc5424a5b3bd683",
+      "normalChange": "Only NORMAL float32 values rounded to five decimal places. POSITION and triangle index accessor bytes exactly unchanged.",
+      "maxNormalAngularErrorDegrees": 0.0004837680679379753,
+      "maxNormalLengthChange": 0.000008423330476792223
+    },
+    "skin": {
+      "file": "skin-web.glb",
+      "bytes": 93171304,
+      "gzipFile": "skin-web.glb.gz",
+      "gzipBytes": 26765436,
+      "sha256": "fd1bc9aa22e4c9a7cf40c356afffb9edd904bef93a77959880a5e47d9d71c574",
+      "gzipSHA256": "df831abaee2145438b78ef76987920a339b36affc0c233211818795794825a78",
+      "normalChange": "Only NORMAL float32 values rounded to five decimal places. POSITION and triangle index accessor bytes exactly unchanged.",
+      "maxNormalAngularErrorDegrees": 0.0004837680679379753,
+      "maxNormalLengthChange": 0.0000084621298266363,
+      "volumes": [
+        {
+          "file": "skin-web.glb.gz.part1",
+          "bytes": 13382718,
+          "sha256": "0a2b16cc0832fb832c60af9746c832c9a551b23e2370924478b9735d4f28a1a8"
+        },
+        {
+          "file": "skin-web.glb.gz.part2",
+          "bytes": 13382718,
+          "sha256": "e566d6d1b113c9c1e9ae7056d7d2c55761eb283b974b48fab8f8ebfd413440a0"
+        }
+      ],
+      "volumeUse": "Fetch volumes in order, concatenate binary bytes, then decompress one gzip stream."
+    }
+  },
+  "componentRefinement": {
+    "sourceCore": "Digimouse 21-label 0.1 mm voxel atlas, 20 internal meshes + optional skin",
+    "sourceCoreSHA256": "1185a2b7a87a49c6e5a8c3762a51dc41741758053f5077fee5ba2ed2f0dc2a24",
+    "changes": "Only six original paired labels, each containing exactly two complete and spatially separate connected components, were split into independent meshes. No original triangle was cut, deleted, added, remeshed, smoothed or moved. Original rounded normals retained. Skin unchanged.",
+    "sourceLabelCount": 21,
+    "selectableObjectCount": 27,
+    "coreMeshCount": 26,
+    "coreTriangles": 2819068,
+    "splitRegions": [
+      "region_3",
+      "region_11",
+      "region_12",
+      "region_14",
+      "region_19",
+      "region_20"
+    ],
+    "laterality": "Analyze header provides no reliable anatomical-side affine. A/B are positional component identifiers, not anatomical left/right.",
+    "unsplitReasons": {
+      "lungs": "One connected source surface; no lobe segmentation inferred",
+      "liver": "One connected source surface; no lobe segmentation inferred",
+      "skeleton": "140 disconnected surface components do not provide 140 validated named bones",
+      "restOfBrain": "79 disconnected components do not establish distinct named brain regions"
+    },
+    "files": {
+      "core.glb.gz": {
+        "bytes": 19347778,
+        "decompressedBytes": 67646660,
+        "decompressedSHA256": "d601e9cd3dd75bf3afc71abe0a96d27b88f0569d4f01fa6dd86b3d00971dd7fa",
+        "gzipSHA256": "70529d5ddf04d7f95d6a25b78b44f1c98c208aa6f7c3ded7cd81557373661c35"
+      }
+    },
+    "mapping": "paired-component-map.json",
+    "validation": "geometry-validation.json"
+  },
+  "delivery": {
+    "coreFile": "core.glb.gz",
+    "coreBytes": 19347778,
+    "coreMeshCount": 26,
+    "coreTriangles": 2819068,
+    "coreDecompressedSHA256": "d601e9cd3dd75bf3afc71abe0a96d27b88f0569d4f01fa6dd86b3d00971dd7fa",
+    "skinUnchanged": true,
+    "selectableObjects": 27
+  }
+}

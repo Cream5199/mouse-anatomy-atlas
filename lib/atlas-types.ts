@@ -1,0 +1,9 @@
+export type View='three-quarter'|'front'|'side'|'back';
+export type ModelUrl=string|string[];
+export type AtlasPart={id:string;name:string;en:string;color:string;sourceName:string;description?:string;bounds?:number[][];center?:number[];nodeIds?:number[];defaultHidden?:boolean;category?:string;triangles?:number;lazyModelUrl?:ModelUrl;origin?:'scan'|'teaching'};
+export type ModelAsset={modelUrl:ModelUrl;metadataUrl:string};
+export type NativeSource=ModelAsset&{rotation:[number,number,number];attributionUrl:string;supplements?:ModelAsset[]};
+export type Specimen={id:string;name:string;en:string;category:string;author:string;method:string;title:string;url:string;description:string;scope:string;study:string[];native?:NativeSource;license?:string;creditShort?:string;kind?:'scan'|'teaching'};
+export type AtlasState={visible:string[];selected:string|null;isolate:boolean;explode:number;view:View;rotate:boolean;reset:number};
+export type SceneHandle={exportPart:(id:string)=>Promise<Blob>};
+export type SceneProps={specimen:Pick<Specimen,'id'|'name'|'url'|'native'>;state:AtlasState;hideLabels?:boolean;apiRef?:import('react').Ref<SceneHandle>;onParts:(parts:AtlasPart[])=>void;onSelect:(id:string)=>void;onReady:()=>void;onError:(message:string)=>void;onProgress?:(message:string)=>void};

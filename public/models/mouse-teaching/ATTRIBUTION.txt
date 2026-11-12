@@ -1,0 +1,51 @@
+Mouse Atlas: authored teaching extension
+
+License for the new geometry and scripts: CC BY-SA 4.0
+https://creativecommons.org/licenses/by-sa/4.0/
+Authorship: Original geometry authored for Mouse Atlas.
+
+This supplement contains 56 independently selectable objects:
+12 digestive/airway/urinary conduit structures, 18 major arterial/venous
+regional trees, and 26 major skeletal muscle groups. The unchanged original
+27 objects are separately distributed under /models/digimouse-voxel/.
+
+Method:
+Curved surfaces and tubes are authored around the original Digimouse organ
+and skeletal landmarks. Muscle lofts include narrowing tendon regions,
+longitudinal relief, and linear RGB vertex colors. Intestinal loops have
+irregular orientation and depth, with a distinct murine caecum. Vessel trees
+use tapering regional branches and selected mouse-specific trunk connections.
+All meshes share the original raw millimetre coordinate system. The viewer
+uses one common centering, scale and X-axis rotation for every source.
+A/B are coordinate-side groups, not verified anatomical laterality.
+
+These are teaching approximations, NOT measured specimen segmentations.
+Curves, branching, calibres, loop number and muscle surfaces are authored.
+Not all microvessels, nerves, muscle attachments, organ lobes or histological
+layers are supplied. Connected parts may meet as intersecting closed surfaces;
+there is no manufacturing, surgical, flow-simulation or lumen continuity claim.
+Reference drawings are consulted for factual anatomy, not copied as images.
+
+Alignment reference:
+Dogdas, Stout, Chatziioannou and Leahy. Digimouse (2007).
+https://neuroimage.usc.edu/neuro/Digimouse
+Original label grid: 0.1 mm; this is spacing, not an accuracy guarantee.
+Source geometry remains unchanged and separately credited.
+
+Anatomical references:
+Margaret J. Cook. The Anatomy of the Laboratory Mouse.
+https://informatics.jax.org/cookbook/
+Abdominal viscera: https://informatics.jax.org/cookbook/figures/figure54.shtml
+Alimentary canal: https://www.informatics.jax.org/cookbook/figures/figure57.shtml
+Trachea/lungs: https://informatics.jax.org/cookbook/figures/figure53.shtml
+Male urogenital system: https://informatics.jax.org/cookbook/figures/figure62.shtml
+INHAND rodent gastrointestinal nomenclature and morphology:
+https://pmc.ncbi.nlm.nih.gov/articles/PMC4765498/
+A Whole-Body Musculoskeletal Model of the Mouse:
+https://pmc.ncbi.nlm.nih.gov/articles/PMC8865483/
+Musculoskeletal Geometry, Muscle Architecture and Functional Specialisations
+of the Mouse Hindlimb:
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0147669
+See vascular/README.md for the selected vascular topology references.
+
+The original researchers and institutions do not endorse this adaptation.

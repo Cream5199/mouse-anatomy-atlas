@@ -1,0 +1,8 @@
+* text=auto
+*.py text eol=lf
+*.mjs text eol=lf
+*.glb binary
+*.gz binary
+*.gz.part* binary
+*.zip binary
+*.png binary

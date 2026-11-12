@@ -1,0 +1,249 @@
+{
+  "passed": true,
+  "meshCount": 12,
+  "triangles": 197280,
+  "compressedBytes": 2621051,
+  "scope": "Numerical mesh consistency only; this does not verify biological fidelity, pairwise organ collision, anatomical registration, or surgical continuity.",
+  "meshes": [
+    {
+      "id": "teaching_digestive_esophagus",
+      "triangles": 19456,
+      "vertices": 9730,
+      "closedManifold": true,
+      "finiteUnitNormals": true,
+      "signedVolumeMM3": 26.884613037109375,
+      "bounds": [
+        [
+          17.455659866333008,
+          22.303646087646484,
+          8.162019729614258
+        ],
+        [
+          22.26093101501465,
+          50.96487808227539,
+          15.448151588439941
+        ]
+      ]
+    },
+    {
+      "id": "teaching_digestive_duodenum",
+      "triangles": 11200,
+      "vertices": 5602,
+      "closedManifold": true,
+      "finiteUnitNormals": true,
+      "signedVolumeMM3": 24.529207229614258,
+      "bounds": [
+        [
+          11.80091381072998,
+          54.013893127441406,
+          6.444600582122803
+        ],
+        [
+          22.38271141052246,
+          60.80324172973633,
+          9.807672500610352
+        ]
+      ]
+    },
+    {
+      "id": "teaching_digestive_jejunum",
+      "triangles": 70720,
+      "vertices": 35362,
+      "closedManifold": true,
+      "finiteUnitNormals": true,
+      "signedVolumeMM3": 99.0773696899414,
+      "bounds": [
+        [
+          9.164138793945312,
+          57.003902435302734,
+          3.858255624771118
+        ],
+        [
+          24.933542251586914,
+          68.61622619628906,
+          10.258721351623535
+        ]
+      ]
+    },
+    {
+      "id": "teaching_digestive_ileum",
+      "triangles": 36288,
+      "vertices": 18146,
+      "closedManifold": true,
+      "finiteUnitNormals": true,
+      "signedVolumeMM3": 46.28937911987305,
+      "bounds": [
+        [
+          10.733444213867188,
+          56.57175827026367,
+          8.303753852844238
+        ],
+        [
+          25.218538284301758,
+          68.39240264892578,
+          11.321232795715332
+        ]
+      ]
+    },
+    {
+      "id": "teaching_digestive_cecum",
+      "triangles": 11424,
+      "vertices": 5714,
+      "closedManifold": true,
+      "finiteUnitNormals": true,
+      "signedVolumeMM3": 89.23807525634766,
+      "bounds": [
+        [
+          22.894704818725586,
+          64.2911148071289,
+          6.19686222076416
+        ],
+        [
+          29.56586265563965,
+          72.23502349853516,
+          9.878889083862305
+        ]
+      ]
+    },
+    {
+      "id": "teaching_digestive_colon",
+      "triangles": 11968,
+      "vertices": 5986,
+      "closedManifold": true,
+      "finiteUnitNormals": true,
+      "signedVolumeMM3": 39.20566940307617,
+      "bounds": [
+        [
+          16.66838836669922,
+          59.672306060791016,
+          7.957913398742676
+        ],
+        [
+          24.217329025268555,
+          71.03250122070312,
+          12.339402198791504
+        ]
+      ]
+    },
+    {
+      "id": "teaching_digestive_rectum",
+      "triangles": 4864,
+      "vertices": 2434,
+      "closedManifold": true,
+      "finiteUnitNormals": true,
+      "signedVolumeMM3": 9.428942680358887,
+      "bounds": [
+        [
+          16.711883544921875,
+          70.8880386352539,
+          8.58056926727295
+        ],
+        [
+          18.24094581604004,
+          78.25611877441406,
+          12.32136344909668
+        ]
+      ]
+    },
+    {
+      "id": "teaching_airway_trachea",
+      "triangles": 9152,
+      "vertices": 4578,
+      "closedManifold": true,
+      "finiteUnitNormals": true,
+      "signedVolumeMM3": 11.843634605407715,
+      "bounds": [
+        [
+          17.640243530273438,
+          23.192611694335938,
+          6.17414665222168
+        ],
+        [
+          19.44003677368164,
+          36.954811096191406,
+          11.533184051513672
+        ]
+      ]
+    },
+    {
+      "id": "teaching_airway_bronchus_a",
+      "triangles": 4736,
+      "vertices": 2370,
+      "closedManifold": true,
+      "finiteUnitNormals": true,
+      "signedVolumeMM3": 2.856841802597046,
+      "bounds": [
+        [
+          13.768913269042969,
+          36.48108673095703,
+          10.67186164855957
+        ],
+        [
+          18.41938018798828,
+          42.56558609008789,
+          12.412141799926758
+        ]
+      ]
+    },
+    {
+      "id": "teaching_airway_bronchus_b",
+      "triangles": 4352,
+      "vertices": 2178,
+      "closedManifold": true,
+      "finiteUnitNormals": true,
+      "signedVolumeMM3": 2.5899200439453125,
+      "bounds": [
+        [
+          17.816152572631836,
+          36.45406723022461,
+          10.667993545532227
+        ],
+        [
+          22.034231185913086,
+          42.048240661621094,
+          12.330074310302734
+        ]
+      ]
+    },
+    {
+      "id": "teaching_ureter_a",
+      "triangles": 6400,
+      "vertices": 3202,
+      "closedManifold": true,
+      "finiteUnitNormals": true,
+      "signedVolumeMM3": 1.6619521379470825,
+      "bounds": [
+        [
+          14.065845489501953,
+          60.93169403076172,
+          8.918580055236816
+        ],
+        [
+          15.407742500305176,
+          69.16618347167969,
+          13.868354797363281
+        ]
+      ]
+    },
+    {
+      "id": "teaching_ureter_b",
+      "triangles": 6720,
+      "vertices": 3362,
+      "closedManifold": true,
+      "finiteUnitNormals": true,
+      "signedVolumeMM3": 1.788012146949768,
+      "bounds": [
+        [
+          18.00774383544922,
+          61.6373176574707,
+          8.727105140686035
+        ],
+        [
+          20.28243064880371,
+          69.58917999267578,
+          14.179366111755371
+        ]
+      ]
+    }
+  ]
+}

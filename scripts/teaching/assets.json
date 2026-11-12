@@ -1,0 +1,54 @@
+{
+  "source": {
+    "path": "scripts/teaching/digestive/generate_digestive.py",
+    "normalization": "lf",
+    "sha256": "166be8cfa4737ba71937da335dd6ba07a3a39e0b8d307fe0db82949a2e9fac26"
+  },
+  "sources": [
+    {
+      "path": "scripts/teaching/digestive/glb_writer.py",
+      "normalization": "lf",
+      "sha256": "5c150f73e26beb536c06215e5a6c3810568a72c472bb448570b97fd783eb91f1"
+    },
+    {
+      "path": "scripts/teaching/vascular/generate_vascular.py",
+      "normalization": "lf",
+      "sha256": "2ad674b467bffbf11f7305c947e3a0fa42166e6bfc7e1aeaa74786ce9aebef66"
+    },
+    {
+      "path": "scripts/teaching/vascular/glb_writer.py",
+      "normalization": "lf",
+      "sha256": "7d0130dfe6b4ec5676ae5c79c94ecae7b1b253c2658d29f7279a42d826404677"
+    },
+    {
+      "path": "scripts/teaching/muscles/generate_muscles.py",
+      "normalization": "lf",
+      "sha256": "1ca6d12aca43b14ec461b3cd0aa05365714947d58728b096f3ffc9faa1fa93ea"
+    },
+    {
+      "path": "scripts/teaching/muscles/landmarks.json",
+      "normalization": "lf",
+      "sha256": "dded036cd330350a07e2ff10ff36cb7b2ee007297b401e95e503bfe12dedd0cb"
+    }
+  ],
+  "models": [
+    {
+      "files": [
+        "public/models/mouse-teaching/digestive/core.glb.gz"
+      ],
+      "decompressedSHA256": "f9b82bb31ff4d926e6c99efd14893377b5fc0c097443eb89cc6d51c025309ce8"
+    },
+    {
+      "files": [
+        "public/models/mouse-teaching/vascular/core.glb.gz"
+      ],
+      "decompressedSHA256": "05e0f8682a30a055a140dd320245fd99f3a93dc91feca193828bdaa5223c1f94"
+    },
+    {
+      "files": [
+        "public/models/mouse-teaching/muscles/core.glb.gz"
+      ],
+      "decompressedSHA256": "d7d3d3f48c28491b47c8a09fb0a009a62df16bd25ac7a8cca2c933164f96c003"
+    }
+  ]
+}

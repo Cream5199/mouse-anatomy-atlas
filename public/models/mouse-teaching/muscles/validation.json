@@ -1,0 +1,210 @@
+[
+  {
+    "id": "teaching_muscle_biceps_brachii_a",
+    "vertices": 3842,
+    "triangles": 7680,
+    "minimumDoubleArea": 0.00030965293990448117,
+    "finite": true,
+    "validIndices": true
+  },
+  {
+    "id": "teaching_muscle_triceps_brachii_a",
+    "vertices": 5892,
+    "triangles": 11776,
+    "minimumDoubleArea": 0.00019358635472599417,
+    "finite": true,
+    "validIndices": true
+  },
+  {
+    "id": "teaching_muscle_forearm_flexors_a",
+    "vertices": 3842,
+    "triangles": 7680,
+    "minimumDoubleArea": 0.00021832068159710616,
+    "finite": true,
+    "validIndices": true
+  },
+  {
+    "id": "teaching_muscle_forearm_extensors_a",
+    "vertices": 3842,
+    "triangles": 7680,
+    "minimumDoubleArea": 0.0001740997249726206,
+    "finite": true,
+    "validIndices": true
+  },
+  {
+    "id": "teaching_muscle_quadriceps_a",
+    "vertices": 7942,
+    "triangles": 15872,
+    "minimumDoubleArea": 0.0003098813467659056,
+    "finite": true,
+    "validIndices": true
+  },
+  {
+    "id": "teaching_muscle_biceps_femoris_a",
+    "vertices": 5892,
+    "triangles": 11776,
+    "minimumDoubleArea": 0.00031517399474978447,
+    "finite": true,
+    "validIndices": true
+  },
+  {
+    "id": "teaching_muscle_gastrocnemius_a",
+    "vertices": 5892,
+    "triangles": 11776,
+    "minimumDoubleArea": 0.00026457587955519557,
+    "finite": true,
+    "validIndices": true
+  },
+  {
+    "id": "teaching_muscle_tibialis_anterior_a",
+    "vertices": 3842,
+    "triangles": 7680,
+    "minimumDoubleArea": 0.0002383742103120312,
+    "finite": true,
+    "validIndices": true
+  },
+  {
+    "id": "teaching_muscle_pectoralis_a",
+    "vertices": 3842,
+    "triangles": 7680,
+    "minimumDoubleArea": 0.0005850149900652468,
+    "finite": true,
+    "validIndices": true
+  },
+  {
+    "id": "teaching_muscle_external_oblique_a",
+    "vertices": 3842,
+    "triangles": 7680,
+    "minimumDoubleArea": 0.000726967875380069,
+    "finite": true,
+    "validIndices": true
+  },
+  {
+    "id": "teaching_muscle_rectus_abdominis_a",
+    "vertices": 3842,
+    "triangles": 7680,
+    "minimumDoubleArea": 0.00023427738051395863,
+    "finite": true,
+    "validIndices": true
+  },
+  {
+    "id": "teaching_muscle_erector_spinae_a",
+    "vertices": 3842,
+    "triangles": 7680,
+    "minimumDoubleArea": 0.00039581357850693166,
+    "finite": true,
+    "validIndices": true
+  },
+  {
+    "id": "teaching_muscle_sternomastoid_a",
+    "vertices": 3842,
+    "triangles": 7680,
+    "minimumDoubleArea": 0.0002177351707359776,
+    "finite": true,
+    "validIndices": true
+  },
+  {
+    "id": "teaching_muscle_biceps_brachii_b",
+    "vertices": 3842,
+    "triangles": 7680,
+    "minimumDoubleArea": 0.0003096847503911704,
+    "finite": true,
+    "validIndices": true
+  },
+  {
+    "id": "teaching_muscle_triceps_brachii_b",
+    "vertices": 5892,
+    "triangles": 11776,
+    "minimumDoubleArea": 0.00019359625002834946,
+    "finite": true,
+    "validIndices": true
+  },
+  {
+    "id": "teaching_muscle_forearm_flexors_b",
+    "vertices": 3842,
+    "triangles": 7680,
+    "minimumDoubleArea": 0.0002183103351853788,
+    "finite": true,
+    "validIndices": true
+  },
+  {
+    "id": "teaching_muscle_forearm_extensors_b",
+    "vertices": 3842,
+    "triangles": 7680,
+    "minimumDoubleArea": 0.0001740737643558532,
+    "finite": true,
+    "validIndices": true
+  },
+  {
+    "id": "teaching_muscle_quadriceps_b",
+    "vertices": 7942,
+    "triangles": 15872,
+    "minimumDoubleArea": 0.00030987890204414725,
+    "finite": true,
+    "validIndices": true
+  },
+  {
+    "id": "teaching_muscle_biceps_femoris_b",
+    "vertices": 5892,
+    "triangles": 11776,
+    "minimumDoubleArea": 0.0003151498967781663,
+    "finite": true,
+    "validIndices": true
+  },
+  {
+    "id": "teaching_muscle_gastrocnemius_b",
+    "vertices": 5892,
+    "triangles": 11776,
+    "minimumDoubleArea": 0.0002645865606609732,
+    "finite": true,
+    "validIndices": true
+  },
+  {
+    "id": "teaching_muscle_tibialis_anterior_b",
+    "vertices": 3842,
+    "triangles": 7680,
+    "minimumDoubleArea": 0.00023838340712245554,
+    "finite": true,
+    "validIndices": true
+  },
+  {
+    "id": "teaching_muscle_pectoralis_b",
+    "vertices": 3842,
+    "triangles": 7680,
+    "minimumDoubleArea": 0.0005850089364685118,
+    "finite": true,
+    "validIndices": true
+  },
+  {
+    "id": "teaching_muscle_external_oblique_b",
+    "vertices": 3842,
+    "triangles": 7680,
+    "minimumDoubleArea": 0.0007268927874974906,
+    "finite": true,
+    "validIndices": true
+  },
+  {
+    "id": "teaching_muscle_rectus_abdominis_b",
+    "vertices": 3842,
+    "triangles": 7680,
+    "minimumDoubleArea": 0.00023426824191119522,
+    "finite": true,
+    "validIndices": true
+  },
+  {
+    "id": "teaching_muscle_erector_spinae_b",
+    "vertices": 3842,
+    "triangles": 7680,
+    "minimumDoubleArea": 0.0003957716398872435,
+    "finite": true,
+    "validIndices": true
+  },
+  {
+    "id": "teaching_muscle_sternomastoid_b",
+    "vertices": 3842,
+    "triangles": 7680,
+    "minimumDoubleArea": 0.00021770405874121934,
+    "finite": true,
+    "validIndices": true
+  }
+]
