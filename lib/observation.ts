@@ -25,7 +25,7 @@ export function observationFromHash(hash:string):Observation|null {
  try {if(hash.length>30000)return null;const value=new URLSearchParams(hash.replace(/^#/, '')).get('atlas');return value?parseObservation(JSON.parse(value)):null;}catch{return null;}
 }
 export function observationURL(base:string,o:Observation):string {
- const url=new URL(base);url.searchParams.delete('practice');url.searchParams.delete('specimen');url.hash=new URLSearchParams({atlas:JSON.stringify(o)}).toString();return url.toString();
+ const url=new URL(base);url.search='';url.hash=new URLSearchParams({atlas:JSON.stringify(o)}).toString();return url.toString();
 }
 export function readSavedObservations(raw:string|null):SavedObservation[] {
  try {const rows=JSON.parse(raw||'[]');if(!Array.isArray(rows))return [];return rows.slice(0,12).flatMap(row=>{const observation=parseObservation(row?.observation);return observation&&typeof row.id==='string'&&typeof row.title==='string'&&typeof row.savedAt==='string'?[{id:row.id.slice(0,100),title:row.title.slice(0,60),savedAt:row.savedAt,observation}]:[];});}catch{return [];}

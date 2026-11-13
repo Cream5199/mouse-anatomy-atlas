@@ -13,8 +13,8 @@ try{
  const {captureObservation,parseObservation,restoreObservation,observationURL,observationFromHash,readSavedObservations}=await compile('observation');
  const parts=[{id:'region_9',origin:'scan'},{id:'teaching_test',origin:'teaching'}];
  const s={visible:['region_9','teaching_test'],selected:'region_9',isolate:true,explode:.77,view:'side',rotate:true,reset:4};
- const observation=captureObservation(s,true),url=observationURL('https://example.test/?practice=1',observation);
- assert.deepEqual(observationFromHash(new URL(url).hash),observation);assert.ok(!url.includes('practice='));
+ const observation=captureObservation(s,true),url=observationURL('https://example.test/?practice=1&tracking=private-example',observation);
+ assert.deepEqual(observationFromHash(new URL(url).hash),observation);assert.equal(new URL(url).search,'');
  assert.deepEqual(restoreObservation(observation,parts,5),{...s,rotate:false,reset:5});
  assert.deepEqual(restoreObservation({...observation,extended:false,selected:'teaching_test',visible:['region_9','teaching_test','missing']},parts,1),{visible:['region_9'],selected:null,isolate:false,explode:.77,view:'side',rotate:false,reset:1});
  for(const input of [null,{},[],{...observation,visible:['<script>']},{...observation,visible:Array(201).fill('region_9')},{...observation,explode:NaN}])assert.equal(parseObservation(input),null);
