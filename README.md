@@ -1,5 +1,7 @@
 # Mouse Atlas · 小鼠三维解剖图谱
 
+**[打开在线三维图谱](https://cream5199.github.io/mouse-anatomy-atlas/)** · [模型下载与使用说明](https://cream5199.github.io/mouse-anatomy-atlas/downloads/) · [定位训练](https://cream5199.github.io/mouse-anatomy-atlas/study/)
+
 拖动滑杆，把合拢的小鼠展开为可单独选择的结构。点击心脏或肾脏，可以先看它在全身的位置，再单独放大、旋转或下载三维模型。这个图谱用于生物医学学习中的结构识别和空间关系预习。
 
 图谱包含 **83 个可选对象**：27 个来自 Digimouse 原始标注，56 个是参照这些标注制作的教学模型。它们可以在界面中分开查看。
@@ -45,6 +47,10 @@ npm run dev
 | [教学补建](public/models/mouse-teaching/ATTRIBUTION.txt) | 56 | 消化道、气道和泌尿管道共 12 个，区域动静脉树 18 个，躯干和四肢肌群 26 个。 |
 
 83 指对象数，不等于 83 种器官。成对结构的 A / B 表示源坐标中的两个部分，尚未核实为解剖左 / 右。Digimouse 的 0.1 mm 是体素标注网格的间距，不是所有表面的精度保证。补建的肠道路径、血管分支和肌肉附着未经标本测量或专家验证，不能用于确定实际取材位置、手术规划或精密测量。
+
+## 静态部署
+
+域名根路径使用 `npm run build`；本项目的 GitHub Pages 子路径 `/mouse-anatomy-atlas/` 使用 `npm run build:pages`。将 `dist/` 的内容（包括 `.nojekyll` 和全部模型）发布到静态服务器。使用 `npm run preview:pages` 可在本机预览 Pages 路径。
 
 ## 开发与校验
 

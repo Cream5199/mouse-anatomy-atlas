@@ -1,4 +1,5 @@
 'use client';
+import {sitePath} from '@/lib/site-path';
 import {useEffect,useImperativeHandle,useRef,useState} from 'react';
 import * as THREE from 'three';
 import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
@@ -44,7 +45,7 @@ export default function NativeScene(props:SceneProps){
   const abort=new AbortController();
   const assets=props.specimen.native!;
   async function loadModel(url:ModelUrl,report:(message:string)=>void){
-   const urls=Array.isArray(url)?url:[url],responses=await Promise.all(urls.map(path=>fetch(path,{signal:abort.signal})));
+   const urls=Array.isArray(url)?url:[url],responses=await Promise.all(urls.map(path=>fetch(sitePath(path),{signal:abort.signal})));
    if(responses.some(r=>!r.ok))throw Error('model');
    const sizes=responses.map(r=>Number(r.headers.get('Content-Length'))),total=sizes.every(n=>n>0)?sizes.reduce((a,b)=>a+b,0):0;
    const chunks:Uint8Array[]=[];let received=0,reported=0;
@@ -63,7 +64,7 @@ export default function NativeScene(props:SceneProps){
    const p=parts.find(p=>p.id===id),mesh=meshes.get(id);
    if(!p||!mesh)throw new Error('该结构尚未加载，请显示它并等待加载完成后重试。');
    const source=p.origin==='teaching'?'/models/mouse-teaching/ATTRIBUTION.txt':'/models/digimouse-voxel/ATTRIBUTION.txt';
-   const response=await fetch(source,{signal:abort.signal});if(!response.ok)throw new Error('来源说明未能加载，请重试。');
+   const response=await fetch(sitePath(source),{signal:abort.signal});if(!response.ok)throw new Error('来源说明未能加载，请重试。');
    const attribution=await response.text();
    if(stopped)throw new Error('模型已关闭，请重新加载。');
    const {GLTFExporter}=await import('three/addons/exporters/GLTFExporter.js');
@@ -88,7 +89,7 @@ export default function NativeScene(props:SceneProps){
   retryLazy.current=()=>{attempted.clear();setNotice('')};
   const sources=[assets,...assets.supplements||[]];
   Promise.all(sources.map(async(source,index)=>{
-   const [gltf,data]=await Promise.all([loadModel(source.modelUrl,message=>{if(index===0)latest.current.onProgress?.(message)}),fetch(source.metadataUrl,{signal:abort.signal}).then(r=>{if(!r.ok)throw Error('metadata');return r.json()})]);
+   const [gltf,data]=await Promise.all([loadModel(source.modelUrl,message=>{if(index===0)latest.current.onProgress?.(message)}),fetch(sitePath(source.metadataUrl),{signal:abort.signal}).then(r=>{if(!r.ok)throw Error('metadata');return r.json()})]);
    if(!Array.isArray(data)||data.length===0){disposeSource(gltf.scene);throw Error('Missing metadata')}
    if(stopped){disposeSource(gltf.scene);throw Error('aborted')}
    return {gltf,metadata:data as AtlasPart[]};
