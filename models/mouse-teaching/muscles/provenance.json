@@ -1,0 +1,44 @@
+{
+  "title": "Mouse teaching muscle extension",
+  "origin": "teaching",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "scanDerived": false,
+  "generator": "generate_muscles.py",
+  "sourceLandmarks": "landmarks.json",
+  "alignmentSource": {
+    "title": "Digimouse 0.1 mm atlas skeleton",
+    "url": "https://neuroimage.usc.edu/neuro/Digimouse_Download",
+    "authors": "B. Dogdas, D. Stout, A. Chatziioannou, R. M. Leahy",
+    "license": "CC BY-SA 4.0"
+  },
+  "anatomicalReferences": [
+    {
+      "title": "A Whole-Body Musculoskeletal Model of the Mouse",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8865483/"
+    },
+    {
+      "title": "Musculoskeletal Geometry, Muscle Architecture and Functional Specialisations of the Mouse Hindlimb",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0147669"
+    },
+    {
+      "title": "MGI skeletal muscle anatomical terminology",
+      "url": "https://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA%3A35988"
+    }
+  ],
+  "method": "Authored curved lofts with tapering tendon ends, asymmetric bellies, mild fascicle surface relief and linear-space vertex colors. Source skeleton landmarks determine pose; surfaces are not extracted from specimen muscle scans.",
+  "scope": "26 named teaching muscle groups, paired A/B; not a complete measured muscle atlas. Some multiheaded muscles remain grouped. A/B do not assert anatomical laterality.",
+  "coordinates": "Original raw millimetres, head toward smaller y, ventral observer toward smaller z; viewer applies shared X-axis pi rotation.",
+  "parts": 26,
+  "triangles": 240640,
+  "bytes": 6295012,
+  "gzipBytes": 3271799,
+  "decompressedSHA256": "d7d3d3f48c28491b47c8a09fb0a009a62df16bd25ac7a8cca2c933164f96c003",
+  "vertexColorNote": "COLOR_0 is linear RGB normalized uint8; use vertexColors=true with white base material.",
+  "defaultHidden": [
+    "teaching_muscle_external_oblique_a",
+    "teaching_muscle_rectus_abdominis_a",
+    "teaching_muscle_external_oblique_b",
+    "teaching_muscle_rectus_abdominis_b"
+  ]
+}

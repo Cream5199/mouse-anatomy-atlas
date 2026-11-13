@@ -1,0 +1,14 @@
+{
+  "meshes": 18,
+  "triangles": 601800,
+  "vertices": 301192,
+  "gzipBytes": 7835963,
+  "sha256": "05e0f8682a30a055a140dd320245fd99f3a93dc91feca193828bdaa5223c1f94",
+  "sourceCoordinateSystem": "Original Digimouse raw mm: cranial=-Y, ventral=-Z; A=lower X, B=higher X. A/B not verified anatomical sides.",
+  "origin": "teaching",
+  "scanDerived": false,
+  "selectedRegionalBranchesOnly": true,
+  "junctionMethod": "Independent smooth capped curve tubes intersect at shared centerline junctions. Each named tree is a single mesh; no Boolean-union or CFD-manifold claim.",
+  "license": "CC-BY-SA-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+}

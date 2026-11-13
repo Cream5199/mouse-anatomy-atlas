@@ -1,0 +1,1146 @@
+[
+  {
+    "id": "teaching_muscle_biceps_brachii_a",
+    "name": "肱二头肌 A",
+    "en": "Biceps brachii A",
+    "color": "#b87879",
+    "sourceName": "Biceps brachii",
+    "description": "上臂前侧的教学肌腹与渐尖肌腱，沿真实肱骨位置布置，用于识别上臂屈肌关系。",
+    "category": "muscular",
+    "origin": "teaching",
+    "defaultHidden": false,
+    "vertexColors": true,
+    "bounds": [
+      [
+        5.775784969329834,
+        28.790578842163086,
+        5.2527289390563965
+      ],
+      [
+        12.140613555908203,
+        32.57135772705078,
+        10.58474349975586
+      ]
+    ],
+    "center": [
+      9.10529899597168,
+      30.68596649169922,
+      7.633205890655518
+    ],
+    "centroid": [
+      9.10529899597168,
+      30.68596649169922,
+      7.633205890655518
+    ],
+    "vertices": 3842,
+    "triangles": 7680,
+    "pairMember": "A",
+    "pairDesignation": "A/B match source positional sides; anatomical left/right is not established.",
+    "provenance": {
+      "kind": "self-authored teaching reconstruction",
+      "scanDerived": false,
+      "registration": "Fixed source skeleton landmarks; original raw millimetre coordinate frame",
+      "generator": "generate_muscles.py"
+    }
+  },
+  {
+    "id": "teaching_muscle_triceps_brachii_a",
+    "name": "肱三头肌群 A",
+    "en": "Triceps brachii group A",
+    "color": "#ad6c71",
+    "sourceName": "Triceps brachii group",
+    "description": "上臂后侧肌群的教学重建，与肱二头肌分开展示；肌头合并为一个可选肌群。",
+    "category": "muscular",
+    "origin": "teaching",
+    "defaultHidden": false,
+    "vertexColors": true,
+    "bounds": [
+      [
+        5.758422374725342,
+        30.45586585998535,
+        5.503504276275635
+      ],
+      [
+        12.171411514282227,
+        34.41175079345703,
+        12.09972858428955
+      ]
+    ],
+    "center": [
+      8.93537712097168,
+      32.5020866394043,
+      8.929827690124512
+    ],
+    "centroid": [
+      8.93537712097168,
+      32.5020866394043,
+      8.929827690124512
+    ],
+    "vertices": 5892,
+    "triangles": 11776,
+    "pairMember": "A",
+    "pairDesignation": "A/B match source positional sides; anatomical left/right is not established.",
+    "provenance": {
+      "kind": "self-authored teaching reconstruction",
+      "scanDerived": false,
+      "registration": "Fixed source skeleton landmarks; original raw millimetre coordinate frame",
+      "generator": "generate_muscles.py"
+    }
+  },
+  {
+    "id": "teaching_muscle_forearm_flexors_a",
+    "name": "前臂屈肌群 A",
+    "en": "Forearm flexor group A",
+    "color": "#b37579",
+    "sourceName": "Forearm flexor group",
+    "description": "沿真实前臂弯曲走向布置的屈肌群，保留肌腹到腕部肌腱的渐变形态。",
+    "category": "muscular",
+    "origin": "teaching",
+    "defaultHidden": false,
+    "vertexColors": true,
+    "bounds": [
+      [
+        5.054291248321533,
+        22.196252822875977,
+        3.006455659866333
+      ],
+      [
+        7.200986862182617,
+        32.61488342285156,
+        4.999256134033203
+      ]
+    ],
+    "center": [
+      6.156505584716797,
+      27.46019744873047,
+      3.8690285682678223
+    ],
+    "centroid": [
+      6.156505584716797,
+      27.46019744873047,
+      3.8690285682678223
+    ],
+    "vertices": 3842,
+    "triangles": 7680,
+    "pairMember": "A",
+    "pairDesignation": "A/B match source positional sides; anatomical left/right is not established.",
+    "provenance": {
+      "kind": "self-authored teaching reconstruction",
+      "scanDerived": false,
+      "registration": "Fixed source skeleton landmarks; original raw millimetre coordinate frame",
+      "generator": "generate_muscles.py"
+    }
+  },
+  {
+    "id": "teaching_muscle_forearm_extensors_a",
+    "name": "前臂伸肌群 A",
+    "en": "Forearm extensor group A",
+    "color": "#c08787",
+    "sourceName": "Forearm extensor group",
+    "description": "前臂伸肌群的教学表示，与屈肌群分层，可分别隐藏以查看桡尺骨。",
+    "category": "muscular",
+    "origin": "teaching",
+    "defaultHidden": false,
+    "vertexColors": true,
+    "bounds": [
+      [
+        4.657008171081543,
+        21.39078140258789,
+        3.8127472400665283
+      ],
+      [
+        6.598282337188721,
+        32.602359771728516,
+        6.1802778244018555
+      ]
+    ],
+    "center": [
+      5.718194007873535,
+      26.954710006713867,
+      5.08979606628418
+    ],
+    "centroid": [
+      5.718194007873535,
+      26.954710006713867,
+      5.08979606628418
+    ],
+    "vertices": 3842,
+    "triangles": 7680,
+    "pairMember": "A",
+    "pairDesignation": "A/B match source positional sides; anatomical left/right is not established.",
+    "provenance": {
+      "kind": "self-authored teaching reconstruction",
+      "scanDerived": false,
+      "registration": "Fixed source skeleton landmarks; original raw millimetre coordinate frame",
+      "generator": "generate_muscles.py"
+    }
+  },
+  {
+    "id": "teaching_muscle_quadriceps_a",
+    "name": "股四头肌群 A",
+    "en": "Quadriceps group A",
+    "color": "#b67378",
+    "sourceName": "Quadriceps group",
+    "description": "大腿前侧伸膝肌群的教学重建，用多个细长肌腹表达肌头与肌束，并与原股骨保持同一姿态。",
+    "category": "muscular",
+    "origin": "teaching",
+    "defaultHidden": false,
+    "vertexColors": true,
+    "bounds": [
+      [
+        3.8169000148773193,
+        72.5267562866211,
+        4.190175533294678
+      ],
+      [
+        14.303799629211426,
+        77.04158782958984,
+        10.407780647277832
+      ]
+    ],
+    "center": [
+      9.328564643859863,
+      75.00247192382812,
+      6.94569730758667
+    ],
+    "centroid": [
+      9.328564643859863,
+      75.00247192382812,
+      6.94569730758667
+    ],
+    "vertices": 7942,
+    "triangles": 15872,
+    "pairMember": "A",
+    "pairDesignation": "A/B match source positional sides; anatomical left/right is not established.",
+    "provenance": {
+      "kind": "self-authored teaching reconstruction",
+      "scanDerived": false,
+      "registration": "Fixed source skeleton landmarks; original raw millimetre coordinate frame",
+      "generator": "generate_muscles.py"
+    }
+  },
+  {
+    "id": "teaching_muscle_biceps_femoris_a",
+    "name": "股二头肌群 A",
+    "en": "Biceps femoris group A",
+    "color": "#a96c73",
+    "sourceName": "Biceps femoris group",
+    "description": "大腿后外侧肌群的教学表示，可与股四头肌群分别观察；附着位置仅用于结构关系学习。",
+    "category": "muscular",
+    "origin": "teaching",
+    "defaultHidden": false,
+    "vertexColors": true,
+    "bounds": [
+      [
+        4.436920642852783,
+        75.42713165283203,
+        4.569457530975342
+      ],
+      [
+        13.635150909423828,
+        80.13668060302734,
+        11.097911834716797
+      ]
+    ],
+    "center": [
+      8.885724067687988,
+      77.40208435058594,
+      7.950886249542236
+    ],
+    "centroid": [
+      8.885724067687988,
+      77.40208435058594,
+      7.950886249542236
+    ],
+    "vertices": 5892,
+    "triangles": 11776,
+    "pairMember": "A",
+    "pairDesignation": "A/B match source positional sides; anatomical left/right is not established.",
+    "provenance": {
+      "kind": "self-authored teaching reconstruction",
+      "scanDerived": false,
+      "registration": "Fixed source skeleton landmarks; original raw millimetre coordinate frame",
+      "generator": "generate_muscles.py"
+    }
+  },
+  {
+    "id": "teaching_muscle_gastrocnemius_a",
+    "name": "腓肠肌群 A",
+    "en": "Gastrocnemius group A",
+    "color": "#ae6e76",
+    "sourceName": "Gastrocnemius group",
+    "description": "小腿后侧肌腹逐渐收束为远端肌腱，按源标本的弯膝姿态补建；双头合并为一个教学肌群。",
+    "category": "muscular",
+    "origin": "teaching",
+    "defaultHidden": false,
+    "vertexColors": true,
+    "bounds": [
+      [
+        3.2814009189605713,
+        75.48723602294922,
+        3.4401822090148926
+      ],
+      [
+        8.64897632598877,
+        88.8394775390625,
+        6.998638153076172
+      ]
+    ],
+    "center": [
+      6.008121013641357,
+      82.29591369628906,
+      5.055701732635498
+    ],
+    "centroid": [
+      6.008121013641357,
+      82.29591369628906,
+      5.055701732635498
+    ],
+    "vertices": 5892,
+    "triangles": 11776,
+    "pairMember": "A",
+    "pairDesignation": "A/B match source positional sides; anatomical left/right is not established.",
+    "provenance": {
+      "kind": "self-authored teaching reconstruction",
+      "scanDerived": false,
+      "registration": "Fixed source skeleton landmarks; original raw millimetre coordinate frame",
+      "generator": "generate_muscles.py"
+    }
+  },
+  {
+    "id": "teaching_muscle_tibialis_anterior_a",
+    "name": "胫骨前肌 A",
+    "en": "Tibialis anterior A",
+    "color": "#bd8182",
+    "sourceName": "Tibialis anterior",
+    "description": "沿胫骨前侧的细长肌腹与肌腱，表现其与后侧腓肠肌的相对层次。",
+    "category": "muscular",
+    "origin": "teaching",
+    "defaultHidden": false,
+    "vertexColors": true,
+    "bounds": [
+      [
+        4.7739105224609375,
+        75.8167953491211,
+        3.1656699180603027
+      ],
+      [
+        8.731241226196289,
+        89.1085433959961,
+        4.935684680938721
+      ]
+    ],
+    "center": [
+      7.097177505493164,
+      82.31949615478516,
+      4.002208709716797
+    ],
+    "centroid": [
+      7.097177505493164,
+      82.31949615478516,
+      4.002208709716797
+    ],
+    "vertices": 3842,
+    "triangles": 7680,
+    "pairMember": "A",
+    "pairDesignation": "A/B match source positional sides; anatomical left/right is not established.",
+    "provenance": {
+      "kind": "self-authored teaching reconstruction",
+      "scanDerived": false,
+      "registration": "Fixed source skeleton landmarks; original raw millimetre coordinate frame",
+      "generator": "generate_muscles.py"
+    }
+  },
+  {
+    "id": "teaching_muscle_pectoralis_a",
+    "name": "胸肌群 A",
+    "en": "Pectoral muscle group A",
+    "color": "#b87a7a",
+    "sourceName": "Pectoral muscle group",
+    "description": "胸前侧的扇形教学肌群，两侧分开显示，保留中线窗口以观察心肺及其他内部结构。",
+    "category": "muscular",
+    "origin": "teaching",
+    "defaultHidden": false,
+    "vertexColors": true,
+    "bounds": [
+      [
+        9.78632640838623,
+        29.97134780883789,
+        3.99556040763855
+      ],
+      [
+        16.274477005004883,
+        43.07551956176758,
+        10.430452346801758
+      ]
+    ],
+    "center": [
+      13.016566276550293,
+      36.404197692871094,
+      6.548184871673584
+    ],
+    "centroid": [
+      13.016566276550293,
+      36.404197692871094,
+      6.548184871673584
+    ],
+    "vertices": 3842,
+    "triangles": 7680,
+    "pairMember": "A",
+    "pairDesignation": "A/B match source positional sides; anatomical left/right is not established.",
+    "provenance": {
+      "kind": "self-authored teaching reconstruction",
+      "scanDerived": false,
+      "registration": "Fixed source skeleton landmarks; original raw millimetre coordinate frame",
+      "generator": "generate_muscles.py"
+    }
+  },
+  {
+    "id": "teaching_muscle_external_oblique_a",
+    "name": "腹外斜肌 A",
+    "en": "External oblique muscle A",
+    "color": "#bf8586",
+    "sourceName": "External oblique muscle",
+    "description": "腹壁外侧的扁平斜行肌片，默认隐藏以保留内脏视野；开启后可查看腹壁层次。",
+    "category": "muscular",
+    "origin": "teaching",
+    "defaultHidden": true,
+    "vertexColors": true,
+    "bounds": [
+      [
+        8.219232559204102,
+        47.47924041748047,
+        4.531151294708252
+      ],
+      [
+        13.891282081604004,
+        73.03241729736328,
+        7.049753189086914
+      ]
+    ],
+    "center": [
+      11.326531410217285,
+      60.26710510253906,
+      5.810396194458008
+    ],
+    "centroid": [
+      11.326531410217285,
+      60.26710510253906,
+      5.810396194458008
+    ],
+    "vertices": 3842,
+    "triangles": 7680,
+    "pairMember": "A",
+    "pairDesignation": "A/B match source positional sides; anatomical left/right is not established.",
+    "provenance": {
+      "kind": "self-authored teaching reconstruction",
+      "scanDerived": false,
+      "registration": "Fixed source skeleton landmarks; original raw millimetre coordinate frame",
+      "generator": "generate_muscles.py"
+    }
+  },
+  {
+    "id": "teaching_muscle_rectus_abdominis_a",
+    "name": "腹直肌 A",
+    "en": "Rectus abdominis A",
+    "color": "#c18a88",
+    "sourceName": "Rectus abdominis",
+    "description": "腹侧中线两旁的纵行肌带，用连续曲面表现分段腱划；默认隐藏以便观察内脏。",
+    "category": "muscular",
+    "origin": "teaching",
+    "defaultHidden": true,
+    "vertexColors": true,
+    "bounds": [
+      [
+        14.864880561828613,
+        44.99589157104492,
+        2.4631564617156982
+      ],
+      [
+        17.294252395629883,
+        74.00511932373047,
+        5.229182720184326
+      ]
+    ],
+    "center": [
+      15.95569896697998,
+      59.533843994140625,
+      3.641540050506592
+    ],
+    "centroid": [
+      15.95569896697998,
+      59.533843994140625,
+      3.641540050506592
+    ],
+    "vertices": 3842,
+    "triangles": 7680,
+    "pairMember": "A",
+    "pairDesignation": "A/B match source positional sides; anatomical left/right is not established.",
+    "provenance": {
+      "kind": "self-authored teaching reconstruction",
+      "scanDerived": false,
+      "registration": "Fixed source skeleton landmarks; original raw millimetre coordinate frame",
+      "generator": "generate_muscles.py"
+    }
+  },
+  {
+    "id": "teaching_muscle_erector_spinae_a",
+    "name": "竖脊肌群 A",
+    "en": "Erector spinae group A",
+    "color": "#b57a7d",
+    "sourceName": "Erector spinae group",
+    "description": "沿原脊柱两旁布置的背部纵肌群，表现躯干背侧连续肌柱及其与脊柱的关系。",
+    "category": "muscular",
+    "origin": "teaching",
+    "defaultHidden": false,
+    "vertexColors": true,
+    "bounds": [
+      [
+        14.537782669067383,
+        30.988195419311523,
+        13.05702018737793
+      ],
+      [
+        17.006362915039062,
+        69.82374572753906,
+        19.36701011657715
+      ]
+    ],
+    "center": [
+      15.719414710998535,
+      50.71186828613281,
+      16.744741439819336
+    ],
+    "centroid": [
+      15.719414710998535,
+      50.71186828613281,
+      16.744741439819336
+    ],
+    "vertices": 3842,
+    "triangles": 7680,
+    "pairMember": "A",
+    "pairDesignation": "A/B match source positional sides; anatomical left/right is not established.",
+    "provenance": {
+      "kind": "self-authored teaching reconstruction",
+      "scanDerived": false,
+      "registration": "Fixed source skeleton landmarks; original raw millimetre coordinate frame",
+      "generator": "generate_muscles.py"
+    }
+  },
+  {
+    "id": "teaching_muscle_sternomastoid_a",
+    "name": "胸骨乳突肌 A",
+    "en": "Sternomastoid muscle A",
+    "color": "#b77b7d",
+    "sourceName": "Sternomastoid muscle",
+    "description": "颈前侧从颅底附近向胸骨方向延伸的教学肌束，用于观察颈部纵行肌群关系。",
+    "category": "muscular",
+    "origin": "teaching",
+    "defaultHidden": false,
+    "vertexColors": true,
+    "bounds": [
+      [
+        13.296185493469238,
+        24.467805862426758,
+        4.269107818603516
+      ],
+      [
+        16.98160171508789,
+        34.01973342895508,
+        10.036837577819824
+      ]
+    ],
+    "center": [
+      15.218293190002441,
+      29.147600173950195,
+      7.0110297203063965
+    ],
+    "centroid": [
+      15.218293190002441,
+      29.147600173950195,
+      7.0110297203063965
+    ],
+    "vertices": 3842,
+    "triangles": 7680,
+    "pairMember": "A",
+    "pairDesignation": "A/B match source positional sides; anatomical left/right is not established.",
+    "provenance": {
+      "kind": "self-authored teaching reconstruction",
+      "scanDerived": false,
+      "registration": "Fixed source skeleton landmarks; original raw millimetre coordinate frame",
+      "generator": "generate_muscles.py"
+    }
+  },
+  {
+    "id": "teaching_muscle_biceps_brachii_b",
+    "name": "肱二头肌 B",
+    "en": "Biceps brachii B",
+    "color": "#b87879",
+    "sourceName": "Biceps brachii",
+    "description": "上臂前侧的教学肌腹与渐尖肌腱，沿真实肱骨位置布置，用于识别上臂屈肌关系。",
+    "category": "muscular",
+    "origin": "teaching",
+    "defaultHidden": false,
+    "vertexColors": true,
+    "bounds": [
+      [
+        23.261716842651367,
+        27.799680709838867,
+        5.541635036468506
+      ],
+      [
+        30.316434860229492,
+        30.254928588867188,
+        10.537271499633789
+      ]
+    ],
+    "center": [
+      26.616111755371094,
+      29.16266441345215,
+      7.7659912109375
+    ],
+    "centroid": [
+      26.616111755371094,
+      29.16266441345215,
+      7.7659912109375
+    ],
+    "vertices": 3842,
+    "triangles": 7680,
+    "pairMember": "B",
+    "pairDesignation": "A/B match source positional sides; anatomical left/right is not established.",
+    "provenance": {
+      "kind": "self-authored teaching reconstruction",
+      "scanDerived": false,
+      "registration": "Fixed source skeleton landmarks; original raw millimetre coordinate frame",
+      "generator": "generate_muscles.py"
+    }
+  },
+  {
+    "id": "teaching_muscle_triceps_brachii_b",
+    "name": "肱三头肌群 B",
+    "en": "Triceps brachii group B",
+    "color": "#ad6c71",
+    "sourceName": "Triceps brachii group",
+    "description": "上臂后侧肌群的教学重建，与肱二头肌分开展示；肌头合并为一个可选肌群。",
+    "category": "muscular",
+    "origin": "teaching",
+    "defaultHidden": false,
+    "vertexColors": true,
+    "bounds": [
+      [
+        23.260549545288086,
+        29.325895309448242,
+        5.802065372467041
+      ],
+      [
+        30.33663558959961,
+        32.554847717285156,
+        12.055989265441895
+      ]
+    ],
+    "center": [
+      26.846820831298828,
+      30.89362907409668,
+      9.030820846557617
+    ],
+    "centroid": [
+      26.846820831298828,
+      30.89362907409668,
+      9.030820846557617
+    ],
+    "vertices": 5892,
+    "triangles": 11776,
+    "pairMember": "B",
+    "pairDesignation": "A/B match source positional sides; anatomical left/right is not established.",
+    "provenance": {
+      "kind": "self-authored teaching reconstruction",
+      "scanDerived": false,
+      "registration": "Fixed source skeleton landmarks; original raw millimetre coordinate frame",
+      "generator": "generate_muscles.py"
+    }
+  },
+  {
+    "id": "teaching_muscle_forearm_flexors_b",
+    "name": "前臂屈肌群 B",
+    "en": "Forearm flexor group B",
+    "color": "#b37579",
+    "sourceName": "Forearm flexor group",
+    "description": "沿真实前臂弯曲走向布置的屈肌群，保留肌腹到腕部肌腱的渐变形态。",
+    "category": "muscular",
+    "origin": "teaching",
+    "defaultHidden": false,
+    "vertexColors": true,
+    "bounds": [
+      [
+        29.1158390045166,
+        18.798274993896484,
+        2.9225850105285645
+      ],
+      [
+        31.20672607421875,
+        29.416025161743164,
+        5.28934383392334
+      ]
+    ],
+    "center": [
+      30.14788246154785,
+      24.1820125579834,
+      3.8682711124420166
+    ],
+    "centroid": [
+      30.14788246154785,
+      24.1820125579834,
+      3.8682711124420166
+    ],
+    "vertices": 3842,
+    "triangles": 7680,
+    "pairMember": "B",
+    "pairDesignation": "A/B match source positional sides; anatomical left/right is not established.",
+    "provenance": {
+      "kind": "self-authored teaching reconstruction",
+      "scanDerived": false,
+      "registration": "Fixed source skeleton landmarks; original raw millimetre coordinate frame",
+      "generator": "generate_muscles.py"
+    }
+  },
+  {
+    "id": "teaching_muscle_forearm_extensors_b",
+    "name": "前臂伸肌群 B",
+    "en": "Forearm extensor group B",
+    "color": "#c08787",
+    "sourceName": "Forearm extensor group",
+    "description": "前臂伸肌群的教学表示，与屈肌群分层，可分别隐藏以查看桡尺骨。",
+    "category": "muscular",
+    "origin": "teaching",
+    "defaultHidden": false,
+    "vertexColors": true,
+    "bounds": [
+      [
+        29.774675369262695,
+        17.990760803222656,
+        3.519493818283081
+      ],
+      [
+        31.61629867553711,
+        29.403234481811523,
+        6.336519241333008
+      ]
+    ],
+    "center": [
+      30.601003646850586,
+      23.65100860595703,
+      5.063163757324219
+    ],
+    "centroid": [
+      30.601003646850586,
+      23.65100860595703,
+      5.063163757324219
+    ],
+    "vertices": 3842,
+    "triangles": 7680,
+    "pairMember": "B",
+    "pairDesignation": "A/B match source positional sides; anatomical left/right is not established.",
+    "provenance": {
+      "kind": "self-authored teaching reconstruction",
+      "scanDerived": false,
+      "registration": "Fixed source skeleton landmarks; original raw millimetre coordinate frame",
+      "generator": "generate_muscles.py"
+    }
+  },
+  {
+    "id": "teaching_muscle_quadriceps_b",
+    "name": "股四头肌群 B",
+    "en": "Quadriceps group B",
+    "color": "#b67378",
+    "sourceName": "Quadriceps group",
+    "description": "大腿前侧伸膝肌群的教学重建，用多个细长肌腹表达肌头与肌束，并与原股骨保持同一姿态。",
+    "category": "muscular",
+    "origin": "teaching",
+    "defaultHidden": false,
+    "vertexColors": true,
+    "bounds": [
+      [
+        21.79360580444336,
+        72.04380798339844,
+        5.091161251068115
+      ],
+      [
+        31.783361434936523,
+        76.80245208740234,
+        11.706685066223145
+      ]
+    ],
+    "center": [
+      26.474716186523438,
+      74.55035400390625,
+      8.098182678222656
+    ],
+    "centroid": [
+      26.474716186523438,
+      74.55035400390625,
+      8.098182678222656
+    ],
+    "vertices": 7942,
+    "triangles": 15872,
+    "pairMember": "B",
+    "pairDesignation": "A/B match source positional sides; anatomical left/right is not established.",
+    "provenance": {
+      "kind": "self-authored teaching reconstruction",
+      "scanDerived": false,
+      "registration": "Fixed source skeleton landmarks; original raw millimetre coordinate frame",
+      "generator": "generate_muscles.py"
+    }
+  },
+  {
+    "id": "teaching_muscle_biceps_femoris_b",
+    "name": "股二头肌群 B",
+    "en": "Biceps femoris group B",
+    "color": "#a96c73",
+    "sourceName": "Biceps femoris group",
+    "description": "大腿后外侧肌群的教学表示，可与股四头肌群分别观察；附着位置仅用于结构关系学习。",
+    "category": "muscular",
+    "origin": "teaching",
+    "defaultHidden": false,
+    "vertexColors": true,
+    "bounds": [
+      [
+        22.459583282470703,
+        74.58436584472656,
+        5.469872951507568
+      ],
+      [
+        31.186119079589844,
+        79.69759368896484,
+        12.384963989257812
+      ]
+    ],
+    "center": [
+      26.99533462524414,
+      76.86936950683594,
+      9.01424789428711
+    ],
+    "centroid": [
+      26.99533462524414,
+      76.86936950683594,
+      9.01424789428711
+    ],
+    "vertices": 5892,
+    "triangles": 11776,
+    "pairMember": "B",
+    "pairDesignation": "A/B match source positional sides; anatomical left/right is not established.",
+    "provenance": {
+      "kind": "self-authored teaching reconstruction",
+      "scanDerived": false,
+      "registration": "Fixed source skeleton landmarks; original raw millimetre coordinate frame",
+      "generator": "generate_muscles.py"
+    }
+  },
+  {
+    "id": "teaching_muscle_gastrocnemius_b",
+    "name": "腓肠肌群 B",
+    "en": "Gastrocnemius group B",
+    "color": "#ae6e76",
+    "sourceName": "Gastrocnemius group",
+    "description": "小腿后侧肌腹逐渐收束为远端肌腱，按源标本的弯膝姿态补建；双头合并为一个教学肌群。",
+    "category": "muscular",
+    "origin": "teaching",
+    "defaultHidden": false,
+    "vertexColors": true,
+    "bounds": [
+      [
+        27.237520217895508,
+        74.48928833007812,
+        4.246380805969238
+      ],
+      [
+        32.40922927856445,
+        88.83589935302734,
+        7.875516414642334
+      ]
+    ],
+    "center": [
+      29.7523250579834,
+      81.78136444091797,
+      5.908690929412842
+    ],
+    "centroid": [
+      29.7523250579834,
+      81.78136444091797,
+      5.908690929412842
+    ],
+    "vertices": 5892,
+    "triangles": 11776,
+    "pairMember": "B",
+    "pairDesignation": "A/B match source positional sides; anatomical left/right is not established.",
+    "provenance": {
+      "kind": "self-authored teaching reconstruction",
+      "scanDerived": false,
+      "registration": "Fixed source skeleton landmarks; original raw millimetre coordinate frame",
+      "generator": "generate_muscles.py"
+    }
+  },
+  {
+    "id": "teaching_muscle_tibialis_anterior_b",
+    "name": "胫骨前肌 B",
+    "en": "Tibialis anterior B",
+    "color": "#bd8182",
+    "sourceName": "Tibialis anterior",
+    "description": "沿胫骨前侧的细长肌腹与肌腱，表现其与后侧腓肠肌的相对层次。",
+    "category": "muscular",
+    "origin": "teaching",
+    "defaultHidden": false,
+    "vertexColors": true,
+    "bounds": [
+      [
+        27.104839324951172,
+        74.82011413574219,
+        3.9942739009857178
+      ],
+      [
+        30.834449768066406,
+        89.10696411132812,
+        5.831403732299805
+      ]
+    ],
+    "center": [
+      28.655105590820312,
+      81.8382797241211,
+      4.850268363952637
+    ],
+    "centroid": [
+      28.655105590820312,
+      81.8382797241211,
+      4.850268363952637
+    ],
+    "vertices": 3842,
+    "triangles": 7680,
+    "pairMember": "B",
+    "pairDesignation": "A/B match source positional sides; anatomical left/right is not established.",
+    "provenance": {
+      "kind": "self-authored teaching reconstruction",
+      "scanDerived": false,
+      "registration": "Fixed source skeleton landmarks; original raw millimetre coordinate frame",
+      "generator": "generate_muscles.py"
+    }
+  },
+  {
+    "id": "teaching_muscle_pectoralis_b",
+    "name": "胸肌群 B",
+    "en": "Pectoral muscle group B",
+    "color": "#b87a7a",
+    "sourceName": "Pectoral muscle group",
+    "description": "胸前侧的扇形教学肌群，两侧分开显示，保留中线窗口以观察心肺及其他内部结构。",
+    "category": "muscular",
+    "origin": "teaching",
+    "defaultHidden": false,
+    "vertexColors": true,
+    "bounds": [
+      [
+        18.70916175842285,
+        29.970500946044922,
+        4.003417491912842
+      ],
+      [
+        25.50429916381836,
+        43.07383728027344,
+        10.380401611328125
+      ]
+    ],
+    "center": [
+      22.16607093811035,
+      36.399715423583984,
+      6.524742603302002
+    ],
+    "centroid": [
+      22.16607093811035,
+      36.399715423583984,
+      6.524742603302002
+    ],
+    "vertices": 3842,
+    "triangles": 7680,
+    "pairMember": "B",
+    "pairDesignation": "A/B match source positional sides; anatomical left/right is not established.",
+    "provenance": {
+      "kind": "self-authored teaching reconstruction",
+      "scanDerived": false,
+      "registration": "Fixed source skeleton landmarks; original raw millimetre coordinate frame",
+      "generator": "generate_muscles.py"
+    }
+  },
+  {
+    "id": "teaching_muscle_external_oblique_b",
+    "name": "腹外斜肌 B",
+    "en": "External oblique muscle B",
+    "color": "#bf8586",
+    "sourceName": "External oblique muscle",
+    "description": "腹壁外侧的扁平斜行肌片，默认隐藏以保留内脏视野；开启后可查看腹壁层次。",
+    "category": "muscular",
+    "origin": "teaching",
+    "defaultHidden": true,
+    "vertexColors": true,
+    "bounds": [
+      [
+        21.131868362426758,
+        47.47923278808594,
+        4.524224758148193
+      ],
+      [
+        26.757617950439453,
+        73.03244018554688,
+        7.049646854400635
+      ]
+    ],
+    "center": [
+      23.673465728759766,
+      60.267059326171875,
+      5.810415744781494
+    ],
+    "centroid": [
+      23.673465728759766,
+      60.267059326171875,
+      5.810415744781494
+    ],
+    "vertices": 3842,
+    "triangles": 7680,
+    "pairMember": "B",
+    "pairDesignation": "A/B match source positional sides; anatomical left/right is not established.",
+    "provenance": {
+      "kind": "self-authored teaching reconstruction",
+      "scanDerived": false,
+      "registration": "Fixed source skeleton landmarks; original raw millimetre coordinate frame",
+      "generator": "generate_muscles.py"
+    }
+  },
+  {
+    "id": "teaching_muscle_rectus_abdominis_b",
+    "name": "腹直肌 B",
+    "en": "Rectus abdominis B",
+    "color": "#c18a88",
+    "sourceName": "Rectus abdominis",
+    "description": "腹侧中线两旁的纵行肌带，用连续曲面表现分段腱划；默认隐藏以便观察内脏。",
+    "category": "muscular",
+    "origin": "teaching",
+    "defaultHidden": true,
+    "vertexColors": true,
+    "bounds": [
+      [
+        17.714303970336914,
+        44.99589920043945,
+        2.462178945541382
+      ],
+      [
+        20.125661849975586,
+        74.00511169433594,
+        5.229140281677246
+      ]
+    ],
+    "center": [
+      19.04425048828125,
+      59.533912658691406,
+      3.6415274143218994
+    ],
+    "centroid": [
+      19.04425048828125,
+      59.533912658691406,
+      3.6415274143218994
+    ],
+    "vertices": 3842,
+    "triangles": 7680,
+    "pairMember": "B",
+    "pairDesignation": "A/B match source positional sides; anatomical left/right is not established.",
+    "provenance": {
+      "kind": "self-authored teaching reconstruction",
+      "scanDerived": false,
+      "registration": "Fixed source skeleton landmarks; original raw millimetre coordinate frame",
+      "generator": "generate_muscles.py"
+    }
+  },
+  {
+    "id": "teaching_muscle_erector_spinae_b",
+    "name": "竖脊肌群 B",
+    "en": "Erector spinae group B",
+    "color": "#b57a7d",
+    "sourceName": "Erector spinae group",
+    "description": "沿原脊柱两旁布置的背部纵肌群，表现躯干背侧连续肌柱及其与脊柱的关系。",
+    "category": "muscular",
+    "origin": "teaching",
+    "defaultHidden": false,
+    "vertexColors": true,
+    "bounds": [
+      [
+        18.20396614074707,
+        30.988197326660156,
+        13.057084083557129
+      ],
+      [
+        20.653430938720703,
+        69.82376098632812,
+        19.381019592285156
+      ]
+    ],
+    "center": [
+      19.480567932128906,
+      50.71188735961914,
+      16.74471664428711
+    ],
+    "centroid": [
+      19.480567932128906,
+      50.71188735961914,
+      16.74471664428711
+    ],
+    "vertices": 3842,
+    "triangles": 7680,
+    "pairMember": "B",
+    "pairDesignation": "A/B match source positional sides; anatomical left/right is not established.",
+    "provenance": {
+      "kind": "self-authored teaching reconstruction",
+      "scanDerived": false,
+      "registration": "Fixed source skeleton landmarks; original raw millimetre coordinate frame",
+      "generator": "generate_muscles.py"
+    }
+  },
+  {
+    "id": "teaching_muscle_sternomastoid_b",
+    "name": "胸骨乳突肌 B",
+    "en": "Sternomastoid muscle B",
+    "color": "#b77b7d",
+    "sourceName": "Sternomastoid muscle",
+    "description": "颈前侧从颅底附近向胸骨方向延伸的教学肌束，用于观察颈部纵行肌群关系。",
+    "category": "muscular",
+    "origin": "teaching",
+    "defaultHidden": false,
+    "vertexColors": true,
+    "bounds": [
+      [
+        18.81868553161621,
+        24.46784782409668,
+        4.269153118133545
+      ],
+      [
+        22.503707885742188,
+        34.01972579956055,
+        10.036783218383789
+      ]
+    ],
+    "center": [
+      20.581722259521484,
+      29.147640228271484,
+      7.011021137237549
+    ],
+    "centroid": [
+      20.581722259521484,
+      29.147640228271484,
+      7.011021137237549
+    ],
+    "vertices": 3842,
+    "triangles": 7680,
+    "pairMember": "B",
+    "pairDesignation": "A/B match source positional sides; anatomical left/right is not established.",
+    "provenance": {
+      "kind": "self-authored teaching reconstruction",
+      "scanDerived": false,
+      "registration": "Fixed source skeleton landmarks; original raw millimetre coordinate frame",
+      "generator": "generate_muscles.py"
+    }
+  }
+]

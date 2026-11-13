@@ -1,0 +1,51 @@
+Digimouse original-label surface reconstruction
+
+Source authors: Belma Dogdas, David Stout, Arion F. Chatziioannou,
+Richard M. Leahy. USC Biomedical Imaging Group / UCLA Crump Institute.
+Project: https://neuroimage.usc.edu/neuro/Digimouse
+Download page: https://neuroimage.usc.edu/neuro/Digimouse_Download
+Original labeled volume: https://neuroimage.usc.edu/mouse_atlas/atlas.zip
+Source license: https://neuroimage.usc.edu/neuro/Digimouse_license
+
+The original data and these adapted model files are licensed under
+Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
+https://creativecommons.org/licenses/by-sa/4.0/
+
+Citation: B. Dogdas, D. Stout, A. Chatziioannou, R. M. Leahy (2007).
+Digimouse: A 3D Whole Body Mouse Atlas from CT and Cryosection Data.
+Physics in Medicine & Biology 52:577–587.
+https://doi.org/10.1088/0031-9155/52/3/003
+
+Adaptation by Mouse Atlas:
+Read the official Analyze uint8 label volume in its original storage order
+(380 x 992 x 208, 0.1 mm isotropic voxels), and extracted each non-background
+label with step-1 Lewiner marching cubes at the label boundary. Preserved all
+21 source classes, relative positions and source coordinates. No geometry
+smoothing, decimation, subdivision, invented organs or new segmentation.
+Added Chinese labels and illustrative colors. Converted to indexed GLB.
+Rounded NORMAL attributes to five decimal places for compression; POSITION
+and triangle-index bytes are unchanged by this optimization. Maximum normal
+direction change is 0.000484 degrees. Gzip compression is lossless.
+
+Delivery:
+core.glb.gz contains 26 internal objects from 20 source labels (2,819,068 triangles).
+skin.glb.gz.part1 and skin.glb.gz.part2 contain consecutive bytes of one
+gzip stream. Concatenate part1 followed by part2, then decompress once to
+obtain the optional body-region GLB (3,889,924 triangles).
+The viewer loads the body region only when requested, displays it transparent
+in the whole-body view, and opaque during isolation. All regions receive the
+same display centering, uniform scaling and 180-degree X rotation. Exploded
+positions are reversible display transforms, not anatomical coordinates.
+
+Scope:
+21 macro-level labels are not 21 distinct organ types. Six paired labels have
+been split into two complete connected components each: eyes, kidneys, adrenal
+glands, testes, lachrymal glands and masseter muscles. All original faces,
+positions and rounded normals were preserved. There are 27 selectable objects
+including the original body region. A/B indicate source-coordinate components,
+not verified anatomical laterality. The entire skeleton is one group. Fine per-bone, per-muscle,
+vascular and peripheral-nerve segmentation is not provided. Source header
+information does not justify assigning anatomical left/right to unnamed pairs.
+
+The original authors and institutions do not endorse this adaptation.
+Materials are provided as-is under the linked license.

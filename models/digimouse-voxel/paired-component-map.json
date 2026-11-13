@@ -1,0 +1,344 @@
+[
+  {
+    "sourceRegionId": "region_3",
+    "sourceName": "eye",
+    "components": [
+      {
+        "component": 0,
+        "vertices": 1262,
+        "triangles": 2520,
+        "bounds": [
+          [
+            14.550000190734863,
+            14.15000057220459,
+            9.949999809265137
+          ],
+          [
+            16.05000114440918,
+            15.75,
+            11.550000190734863
+          ]
+        ],
+        "center": [
+          15.31983470916748,
+          14.95635986328125,
+          10.700726509094238
+        ],
+        "signedVolumeMM3": 2.483696699142456
+      },
+      {
+        "component": 1,
+        "vertices": 1516,
+        "triangles": 3028,
+        "bounds": [
+          [
+            22.25,
+            14.449999809265137,
+            8.949999809265137
+          ],
+          [
+            23.850000381469727,
+            16.450000762939453,
+            10.65000057220459
+          ]
+        ],
+        "center": [
+          23.057971954345703,
+          15.456921577453613,
+          9.820714950561523
+        ],
+        "signedVolumeMM3": 3.0881259441375732
+      }
+    ],
+    "outputs": [
+      "region_3_a",
+      "region_3_b"
+    ],
+    "rule": "A is the complete component with smaller source X centroid, B the larger. This does not assert anatomical left/right."
+  },
+  {
+    "sourceRegionId": "region_11",
+    "sourceName": "masseter muscles",
+    "components": [
+      {
+        "component": 0,
+        "vertices": 13924,
+        "triangles": 27844,
+        "bounds": [
+          [
+            12.15000057220459,
+            12.050000190734863,
+            4.550000190734863
+          ],
+          [
+            16.25,
+            22.450000762939453,
+            8.550000190734863
+          ]
+        ],
+        "center": [
+          14.12619400024414,
+          17.540273666381836,
+          6.566761016845703
+        ],
+        "signedVolumeMM3": 53.1334342956543
+      },
+      {
+        "component": 1,
+        "vertices": 14489,
+        "triangles": 28986,
+        "bounds": [
+          [
+            20.950000762939453,
+            12.550000190734863,
+            3.75
+          ],
+          [
+            24.850000381469727,
+            23.150001525878906,
+            7.650000095367432
+          ]
+        ],
+        "center": [
+          22.97116470336914,
+          18.36813735961914,
+          5.69389009475708
+        ],
+        "signedVolumeMM3": 54.06634521484375
+      }
+    ],
+    "outputs": [
+      "region_11_a",
+      "region_11_b"
+    ],
+    "rule": "A is the complete component with smaller source X centroid, B the larger. This does not assert anatomical left/right."
+  },
+  {
+    "sourceRegionId": "region_12",
+    "sourceName": "lachrymal glands",
+    "components": [
+      {
+        "component": 0,
+        "vertices": 5232,
+        "triangles": 10460,
+        "bounds": [
+          [
+            14.050000190734863,
+            12.949999809265137,
+            7.75
+          ],
+          [
+            17.75,
+            17.450000762939453,
+            10.050000190734863
+          ]
+        ],
+        "center": [
+          16.066816329956055,
+          15.32368278503418,
+          9.054596900939941
+        ],
+        "signedVolumeMM3": 15.71715259552002
+      },
+      {
+        "component": 1,
+        "vertices": 4808,
+        "triangles": 9612,
+        "bounds": [
+          [
+            20.25,
+            13.25,
+            7.450000286102295
+          ],
+          [
+            23.850000381469727,
+            17.55000114440918,
+            9.550000190734863
+          ]
+        ],
+        "center": [
+          21.903560638427734,
+          15.758585929870605,
+          8.515986442565918
+        ],
+        "signedVolumeMM3": 14.619755744934082
+      }
+    ],
+    "outputs": [
+      "region_12_a",
+      "region_12_b"
+    ],
+    "rule": "A is the complete component with smaller source X centroid, B the larger. This does not assert anatomical left/right."
+  },
+  {
+    "sourceRegionId": "region_14",
+    "sourceName": "testis",
+    "components": [
+      {
+        "component": 0,
+        "vertices": 13808,
+        "triangles": 27612,
+        "bounds": [
+          [
+            12.550000190734863,
+            77.05000305175781,
+            1.649999976158142
+          ],
+          [
+            17.25,
+            84.1500015258789,
+            5.849999904632568
+          ]
+        ],
+        "center": [
+          14.926068305969238,
+          80.7992935180664,
+          3.7148919105529785
+        ],
+        "signedVolumeMM3": 79.6815185546875
+      },
+      {
+        "component": 1,
+        "vertices": 12678,
+        "triangles": 25352,
+        "bounds": [
+          [
+            19.75,
+            72.45000457763672,
+            2.950000047683716
+          ],
+          [
+            24.25,
+            79.1500015258789,
+            7.25
+          ]
+        ],
+        "center": [
+          21.931303024291992,
+          75.66563415527344,
+          5.086075305938721
+        ],
+        "signedVolumeMM3": 69.6789779663086
+      }
+    ],
+    "outputs": [
+      "region_14_a",
+      "region_14_b"
+    ],
+    "rule": "A is the complete component with smaller source X centroid, B the larger. This does not assert anatomical left/right."
+  },
+  {
+    "sourceRegionId": "region_19",
+    "sourceName": "kidneys",
+    "components": [
+      {
+        "component": 0,
+        "vertices": 30070,
+        "triangles": 60136,
+        "bounds": [
+          [
+            7.849999904632568,
+            54.25,
+            11.550000190734863
+          ],
+          [
+            15.050000190734863,
+            64.75,
+            17.950000762939453
+          ]
+        ],
+        "center": [
+          11.393609046936035,
+          59.498592376708984,
+          14.62317943572998
+        ],
+        "signedVolumeMM3": 246.14906311035156
+      },
+      {
+        "component": 1,
+        "vertices": 30922,
+        "triangles": 61840,
+        "bounds": [
+          [
+            18.549999237060547,
+            55.85000228881836,
+            12.050000190734863
+          ],
+          [
+            26.75,
+            66.05000305175781,
+            18.450000762939453
+          ]
+        ],
+        "center": [
+          22.84551239013672,
+          60.60793685913086,
+          15.025125503540039
+        ],
+        "signedVolumeMM3": 248.849365234375
+      }
+    ],
+    "outputs": [
+      "region_19_a",
+      "region_19_b"
+    ],
+    "rule": "A is the complete component with smaller source X centroid, B the larger. This does not assert anatomical left/right."
+  },
+  {
+    "sourceRegionId": "region_20",
+    "sourceName": "adrenal glands",
+    "components": [
+      {
+        "component": 0,
+        "vertices": 1652,
+        "triangles": 3300,
+        "bounds": [
+          [
+            13.350000381469727,
+            53.54999923706055,
+            15.25
+          ],
+          [
+            15.350000381469727,
+            55.54999923706055,
+            16.75
+          ]
+        ],
+        "center": [
+          14.373791694641113,
+          54.528533935546875,
+          15.96605110168457
+        ],
+        "signedVolumeMM3": 3.238692045211792
+      },
+      {
+        "component": 1,
+        "vertices": 1366,
+        "triangles": 2728,
+        "bounds": [
+          [
+            18.350000381469727,
+            54.75,
+            13.949999809265137
+          ],
+          [
+            19.75,
+            56.04999923706055,
+            16.350000381469727
+          ]
+        ],
+        "center": [
+          18.99864959716797,
+          55.39463806152344,
+          15.205780029296875
+        ],
+        "signedVolumeMM3": 2.429854154586792
+      }
+    ],
+    "outputs": [
+      "region_20_a",
+      "region_20_b"
+    ],
+    "rule": "A is the complete component with smaller source X centroid, B the larger. This does not assert anatomical left/right."
+  }
+]
